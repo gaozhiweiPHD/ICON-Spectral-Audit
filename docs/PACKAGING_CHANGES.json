@@ -39,5 +39,9 @@
   {
     "path": "src/common/models_utils.py",
     "change": "Added upstream attribution comments only"
+  },
+  {
+    "path": ".gitattributes",
+    "change": "Disable Git end-of-line conversion for CSVs so bundled SHA-256 values remain valid after clone; preserve original bytes"
   }
 ]

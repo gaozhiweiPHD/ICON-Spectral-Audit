@@ -1,6 +1,6 @@
 *.py text eol=lf
 *.md text eol=lf
-*.csv text eol=lf
+*.csv -text
 *.json text eol=lf
 *.msgpack binary
 *.npz binary

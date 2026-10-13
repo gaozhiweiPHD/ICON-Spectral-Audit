@@ -1,0 +1,8 @@
+{
+  "attempted": true,
+  "created": false,
+  "pushed": false,
+  "repository_url": null,
+  "reason": "GitHub CLI not authenticated; helper stopped before creation",
+  "public_visibility_changed": false
+}

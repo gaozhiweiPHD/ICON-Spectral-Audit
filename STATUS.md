@@ -2,8 +2,9 @@
 
 Local publication copy is organized and representative checks have passed.
 The original ICON working project was not modified.
-A new PRIVATE GitHub repository has not yet been created: GitHub CLI was
-unauthenticated at the start, and credentials must be configured by the user.
+A new PRIVATE GitHub repository has not been created. The guarded upload was
+attempted and stopped before creation because GitHub CLI is not authenticated.
+The user must configure authentication in their own terminal.
 Public visibility has not been authorized.
 
 ## Executed checks
