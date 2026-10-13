@@ -55,3 +55,7 @@ backend sensitivity observation, not relabeled as agreement. The targeted
 comparison now explicitly sets JAX_PLATFORMS=cpu. The cause of GPU differences
 has not been isolated; no uniform solver or tangent-convergence guarantee is
 claimed. Original code/arrays are preserved, and CPU/GPU runs are distinguished.
+
+## Actual upload status
+
+The cleaned candidate has been pushed to https://github.com/gaozhiweiPHD/ICON-Spectral-Audit with PRIVATE visibility verified. The initial authentication blocker is resolved. No existing remote repository was overwritten and nothing has been made public. Original-work licensing and public release remain pending author review.

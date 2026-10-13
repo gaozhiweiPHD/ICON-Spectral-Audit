@@ -4,8 +4,8 @@ Reproducibility materials for the manuscript submitted to **npj Artificial
 Intelligence**. This is an independently organized copy of the authors' ICON
 working project. Original experiments and manuscript files were left intact.
 
-**Publication status:** private preparation; GitHub authentication and public
-release approval are required. See [STATUS.md](STATUS.md) for actual test results,
+**Publication status:** [GitHub repository](https://github.com/gaozhiweiPHD/ICON-Spectral-Audit) is private and has been pushed successfully. Public release approval and
+original-work licensing confirmation are still required. See [STATUS.md](STATUS.md) for actual test results,
 licensing decisions and missing materials. No full retraining or full parameter
 sweep is claimed to have been reproduced.
 

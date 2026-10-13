@@ -1,8 +1,12 @@
 {
   "attempted": true,
-  "created": false,
-  "pushed": false,
-  "repository_url": null,
-  "reason": "GitHub CLI not authenticated; helper stopped before creation",
-  "public_visibility_changed": false
+  "created": true,
+  "pushed": true,
+  "repository_url": "https://github.com/gaozhiweiPHD/ICON-Spectral-Audit",
+  "private_visibility_verified": true,
+  "initial_pushed_commit": "cab9c69d45e45ddc6a9cfd89ef82202a61353507",
+  "local_remote_commit_match_verified": true,
+  "authentication_blocker_resolved": true,
+  "public_visibility_changed": false,
+  "original_work_license_confirmation": "pending"
 }
