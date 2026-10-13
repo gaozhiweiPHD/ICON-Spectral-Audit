@@ -1,6 +1,6 @@
 {
-  "files_scanned": 152,
-  "bytes": 100889104,
+  "files_scanned": 153,
+  "bytes": 100889854,
   "largest_file_bytes": 18980320,
   "findings": [],
   "scope": "Credential regexes on text; safe NPZ metadata; file sizes and syntax. No credential values are reported. Binary weights/PDF/images are not exhaustively analyzed; absence of regex findings is not a guarantee.",

@@ -16,6 +16,8 @@ Public visibility has not been authorized.
 - All 24 current manuscript assets exported successfully.
 - Three six-pair synthetic example prompts generated successfully.
 - Three scientific-array/figure/sample integrity tests passed.
+- A real local Git clone passed all 33 dataset/checkpoint SHA-256 checks and
+  the three integrity tests; CSV bytes survive Git transport unchanged.
 - Numerical and separate plotting dependency closures passed.
 - Local document-link and evaluator-symbol checks passed.
 - Candidate security scan had no credential, machine-path, unsafe-NPZ,

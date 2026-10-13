@@ -1,0 +1,10 @@
+{
+  "tested_commit": "8c77d3508bbe4f9b9ee946710402403eda139e17",
+  "source": "new local Git clone, not an uncommitted filesystem copy",
+  "dataset_sha256_files": 33,
+  "all_checksums_passed": true,
+  "integrity_tests": 3,
+  "all_integrity_tests_passed": true,
+  "scope": "Git transport/CSV byte integrity and figure/matrix/sample invariants; clean environment installation not tested",
+  "subsequent_changes": "this report and documentation/inventory only; code and datasets unchanged"
+}
