@@ -59,4 +59,4 @@ claimed. Original code/arrays are preserved, and CPU/GPU runs are distinguished.
 
 ## Actual upload status
 
-The cleaned candidate has been pushed to https://github.com/gaozhiweiPHD/ICON-Spectral-Audit with PRIVATE visibility verified. The initial authentication blocker is resolved. No pre-existing remote repository was overwritten. The user subsequently approved public release and the original-work licenses on 13 October 2026. Anonymous public access is recorded separately.
+The cleaned candidate has been pushed to https://github.com/gaozhiweiPHD/ICON-Spectral-Audit with initial PRIVATE visibility verified, then changed to PUBLIC after user approval. The initial authentication blocker is resolved. No pre-existing remote repository was overwritten. The user subsequently approved public release and the original-work licenses on 13 October 2026. Anonymous public HTML/API/raw download and credential-free clone access passed; see results/verification/public_access_checks.json.

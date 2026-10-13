@@ -51,4 +51,8 @@ Security findings, scope and size inventory are in docs/SECURITY_AUDIT.json.
 
 ## GitHub verification
 
-The actual private repository was cloned from GitHub after push. All 33 packaged dataset/checkpoint SHA-256 checks and the three integrity tests passed. The tested remote commit and scope are recorded in results/verification/github_clone_checks.json. Subsequent changes are verification-report and status/inventory documentation only. Anonymous public access has not been enabled or claimed.
+The actual private repository was cloned from GitHub after push. All 33 packaged dataset/checkpoint SHA-256 checks and the three integrity tests passed. The tested remote commit and scope are recorded in results/verification/github_clone_checks.json. Subsequent changes are verification-report and status/inventory documentation only. This earlier check was performed while private; subsequent public-access verification is recorded below.
+
+## Public release verification
+
+After explicit user approval, MIT and CC BY 4.0 licensing were applied and the repository became public. Anonymous HTML/API and representative raw downloads returned HTTP 200. A fresh Git clone with credentials/global/system Git configuration disabled passed all 33 dataset/checkpoint SHA-256 checks and the three integrity tests. Scientific code and data were not changed for release. The final availability statements are in docs/JOURNAL_AVAILABILITY.md and its LaTeX companion.

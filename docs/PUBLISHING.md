@@ -23,3 +23,7 @@ retrying; do not reset or replace them automatically.
 Only after public approval and anonymous public-link verification should the
 journal statements be finalized. An immutable release/archival DOI is optional
 future work; none was created by this preparation.
+
+## Completed public release
+
+The initial private push was completed and reviewed. The user explicitly approved public visibility, redistribution rights and licenses on 13 October 2026. The approved visibility change was made and anonymous access verified. Final journal statements are in docs/JOURNAL_AVAILABILITY.md. The original private-creation helper remains unchanged and cannot itself make repositories public.

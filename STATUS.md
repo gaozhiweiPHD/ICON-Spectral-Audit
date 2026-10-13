@@ -7,7 +7,8 @@ https://github.com/gaozhiweiPHD/ICON-Spectral-Audit
 The initial authentication blocker was resolved by the user. Remote main matched
 the local commit. Its initial private visibility was verified through GitHub.
 Public visibility and the original-work licenses were explicitly approved on
-13 October 2026. Publication and anonymous access checks are being completed.
+13 October 2026. Publication is complete; anonymous HTML/API/raw downloads and credential-free
+Git cloning have been verified.
 
 ## Executed checks
 
@@ -52,8 +53,8 @@ Missing or not certified:
 - No separate supplementary file was found; appendices are in the manuscript.
 - Original-work redistribution rights and MIT / CC BY 4.0 license choices were
   confirmed by the user on 13 October 2026.
-- Final journal statements are supplied after anonymous public-access verification
-  in docs/JOURNAL_AVAILABILITY.md.
+- Final manuscript-ready journal statements are supplied in
+  docs/JOURNAL_AVAILABILITY.md and docs/JOURNAL_AVAILABILITY.tex.
 
 ## Publication approval
 
@@ -61,3 +62,5 @@ Authenticate GitHub CLI in the user's own terminal, confirm the target owner
 and licenses, push the reviewed copy to a new private repository, and verify
 the remote commit. Then provide the URL/inventory/security report for explicit
 public-visibility approval. No helper in this repository can make it public.
+
+Current public URL: https://github.com/gaozhiweiPHD/ICON-Spectral-Audit

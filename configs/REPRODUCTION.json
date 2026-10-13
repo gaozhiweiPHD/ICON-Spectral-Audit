@@ -39,6 +39,8 @@
     "initial_visibility": "PRIVATE",
     "public_visibility_requires_explicit_approval": true,
     "public_release_approved": true,
-    "approval_date": "2026-10-13"
+    "approval_date": "2026-10-13",
+    "current_visibility": "PUBLIC",
+    "anonymous_access_verified": true
   }
 }

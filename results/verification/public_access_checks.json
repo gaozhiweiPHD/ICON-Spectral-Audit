@@ -1,0 +1,108 @@
+{
+  "repository_url": "https://github.com/gaozhiweiPHD/ICON-Spectral-Audit",
+  "public_access_verified": true,
+  "visibility": "PUBLIC",
+  "tested_commit": "d45a9b5caad9ea7f474ac3c902dc46a454f4e49b",
+  "anonymous_http_checks": [
+    {
+      "url": "https://github.com/gaozhiweiPHD/ICON-Spectral-Audit",
+      "http_status": 200,
+      "final_url": "https://github.com/gaozhiweiPHD/ICON-Spectral-Audit",
+      "scope": "unauthenticated repository HTML"
+    },
+    {
+      "url": "https://api.github.com/repos/gaozhiweiPHD/ICON-Spectral-Audit",
+      "http_status": 200,
+      "private": false,
+      "scope": "unauthenticated GitHub REST API"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/README.md",
+      "path": "README.md",
+      "http_status": 200,
+      "bytes": 5376,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/LICENSE",
+      "path": "LICENSE",
+      "http_status": 200,
+      "bytes": 1116,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/LICENSE-DATA",
+      "path": "LICENSE-DATA",
+      "http_status": 200,
+      "bytes": 17023,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/data/README.md",
+      "path": "data/README.md",
+      "http_status": 200,
+      "bytes": 2196,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/data/DATASETS.csv",
+      "path": "data/DATASETS.csv",
+      "http_status": 200,
+      "bytes": 5860,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/data/MANIFEST.sha256",
+      "path": "data/MANIFEST.sha256",
+      "http_status": 200,
+      "bytes": 4400,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/data/samples/advection.npz",
+      "path": "data/samples/advection.npz",
+      "http_status": 200,
+      "bytes": 10594,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/scripts/verify_models.py",
+      "path": "scripts/verify_models.py",
+      "http_status": 200,
+      "bytes": 2341,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/docs/REPRODUCIBILITY.md",
+      "path": "docs/REPRODUCIBILITY.md",
+      "http_status": 200,
+      "bytes": 11736,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/docs/FILE_INVENTORY.csv",
+      "path": "docs/FILE_INVENTORY.csv",
+      "http_status": 200,
+      "bytes": 18138,
+      "sha256_matches_local": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaozhiweiPHD/ICON-Spectral-Audit/d45a9b5caad9ea7f474ac3c902dc46a454f4e49b/STATUS.md",
+      "path": "STATUS.md",
+      "http_status": 200,
+      "bytes": 3634,
+      "sha256_matches_local": true
+    }
+  ],
+  "anonymous_git_clone": {
+    "passed": true,
+    "authentication": "no global/system Git configuration, credentials disabled, token env variables removed, prompts disabled",
+    "commit_matches": true
+  },
+  "dataset_sha256_files": 33,
+  "checksum_exit_code": 0,
+  "integrity_test_exit_code": 0,
+  "integrity_test_output": "test_current_manuscript_assets (test_release_integrity.ReleaseTests.test_current_manuscript_assets) ... ok\ntest_projected_jacobian_error_arrays (test_release_integrity.ReleaseTests.test_projected_jacobian_error_arrays) ... ok\ntest_synthetic_example_shapes (test_release_integrity.ReleaseTests.test_synthetic_example_shapes) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.046s\n\nOK\n",
+  "scope": "anonymous public HTTP, representative raw downloads, fresh anonymous Git clone and all packaged dataset/checkpoint hashes; no new numerical training/full-sweep claim",
+  "subsequent_changes": "public access report and journal/status documentation only; scientific code/data unchanged"
+}
