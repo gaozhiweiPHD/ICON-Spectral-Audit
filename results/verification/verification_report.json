@@ -1,0 +1,116 @@
+{
+  "checks": [
+    {
+      "name": "numerical_environment",
+      "returncode": 0,
+      "seconds": 8.682233964966144,
+      "arguments": [
+        "scripts/environment_report.py",
+        "RELEASE/outputs/verification/numerical_environment.json"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "plot_environment",
+      "returncode": 0,
+      "seconds": 14.879408716980834,
+      "arguments": [
+        "scripts/environment_report.py",
+        "RELEASE/outputs/verification/plot_environment.json"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "numerical_dependency_check",
+      "returncode": 0,
+      "seconds": 0.3682385529973544,
+      "arguments": [
+        "scripts/check_project_dependencies.py",
+        "--profile",
+        "numerical"
+      ],
+      "stdout": "{\n  \"profile\": \"numerical\",\n  \"versions\": {\n    \"orbax-checkpoint\": \"0.11.39\",\n    \"uvloop\": \"0.22.1\",\n    \"psutil\": \"7.2.2\",\n    \"simplejson\": \"4.1.1\",\n    \"humanize\": \"4.15.0\",\n    \"protobuf\": \"6.33.6\",\n    \"aiofiles\": \"25.1.0\",\n    \"tensorstore\": \"0.1.78\",\n    \"ml-dtypes\": \"0.5.4\",\n    \"numpy\": \"2.2.6\",\n    \"pyyaml\": \"6.0.3\",\n    \"jax\": \"0.6.2\",\n    \"scipy\": \"1.15.3\",\n    \"opt-einsum\": \"3.3.0\",\n    \"jaxlib\": \"0.6.2\",\n    \"msgpack\": \"1.1.2\",\n    \"typing-extensions\": \"4.15.0\",\n    \"etils\": \"1.13.0\",\n    \"absl-py\": \"2.4.0\",\n    \"einshape\": \"1.0\",\n    \"optax\": \"0.2.8\",\n    \"flax\": \"0.10.7\",\n    \"treescope\": \"0.1.10\",\n    \"rich\": \"15.0.0\",\n    \"pygments\": \"2.20.0\",\n    \"markdown-it-py\": \"4.2.0\",\n    \"mdurl\": \"0.1.2\"\n  },\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "plot_dependency_check",
+      "returncode": 0,
+      "seconds": 0.22549617302138358,
+      "arguments": [
+        "scripts/check_project_dependencies.py",
+        "--profile",
+        "plot"
+      ],
+      "stdout": "{\n  \"profile\": \"plot\",\n  \"versions\": {\n    \"pillow\": \"12.0.0\",\n    \"matplotlib\": \"3.10.6\",\n    \"python-dateutil\": \"2.9.0.post0\",\n    \"six\": \"1.17.0\",\n    \"pyparsing\": \"3.2.5\",\n    \"packaging\": \"25.0\",\n    \"numpy\": \"2.3.5\",\n    \"kiwisolver\": \"1.4.9\",\n    \"fonttools\": \"4.60.1\",\n    \"cycler\": \"0.11.0\",\n    \"contourpy\": \"1.3.3\"\n  },\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "solver_convergence",
+      "returncode": 0,
+      "seconds": 3.7626525340019725,
+      "arguments": [
+        "scripts/revision/run_solver_convergence.py",
+        "--samples",
+        "4",
+        "--seed",
+        "20261004",
+        "--output",
+        "RELEASE/outputs/verification/solver_convergence.csv"
+      ],
+      "stdout": "burgers time-refined [5.0941054e-07 5.7854493e-07 4.2245549e-07 3.9459772e-07] space+time-refined [2.6038947e-06 4.0903687e-06 7.1501165e-07 7.5387828e-07]\nallen_cahn time-refined [6.4456987e-07 6.0043914e-07 4.8986925e-07 4.5143179e-07] space+time-refined [1.5709693e-06 2.0253779e-06 1.0271310e-06 1.9458614e-06]\nsaved 8 raw rows to RELEASE/outputs/verification/solver_convergence.csv\n",
+      "stderr": ""
+    },
+    {
+      "name": "model_and_spectral_reproduction",
+      "returncode": 0,
+      "seconds": 78.45813798700692,
+      "arguments": [
+        "scripts/verify_models.py",
+        "--output",
+        "RELEASE/outputs/verification/model_checks.json"
+      ],
+      "stdout": "Loaded checkpoint: RELEASE/experiments/advection/checkpoints/main/params_step_200000.msgpack\nadvection {'prediction_error': {'reference': 0.018178630620241165, 'measured': 0.018178630620241165, 'passed': True}, 'spectral_error': {'reference': 0.023668920621275902, 'measured': 0.023668920621275902, 'passed': True}, 'matrix_error': {'reference': 0.04711503066226963, 'measured': 0.04711503066226963, 'passed': True}, 'block_error': {'reference': 0.022521299792980738, 'measured': 0.022521299792980738, 'passed': True}}\nLoaded checkpoint: RELEASE/experiments/burgers/corrupted_prompt/run/ckpt/params_step_200000.msgpack\nLoaded checkpoint: RELEASE/experiments/burgers/checkpoints/main/params_step_200000.msgpack\nburgers {'prediction_error': {'reference': 0.04454069584608078, 'measured': 0.04454069584608078, 'passed': True}, 'spectral_error': {'reference': 0.10962893068790436, 'measured': 0.10962892323732376, 'passed': True}, 'matrix_error': {'reference': 0.1704990267753601, 'measured': 0.17046673595905304, 'passed': True}, 'block_error': {'reference': None, 'measured': None, 'passed': True}}\nLoaded checkpoint: RELEASE/experiments/allen_cahn/checkpoints/main/params_step_200000.msgpack\nallen_cahn {'prediction_error': {'reference': 0.004792805761098862, 'measured': 0.004792805761098862, 'passed': True}, 'spectral_error': {'reference': 0.00805541593581438, 'measured': 0.00805541593581438, 'passed': True}, 'matrix_error': {'reference': 0.017484743148088455, 'measured': 0.017484743148088455, 'passed': True}, 'block_error': {'reference': None, 'measured': None, 'passed': True}}\n",
+      "stderr": "2026-10-13 19:01:11.821184: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.\n2026-10-13 19:01:21.501859: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.\n2026-10-13 19:01:27.057352: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.\n2026-10-13 19:01:42.497577: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.\n2026-10-13 19:01:42.497621: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.\n2026-10-13 19:01:54.252276: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.\n"
+    },
+    {
+      "name": "synthetic_samples",
+      "returncode": 0,
+      "seconds": 15.513533302990254,
+      "arguments": [
+        "scripts/generate_samples.py",
+        "--output-dir",
+        "RELEASE/outputs/verification/samples"
+      ],
+      "stdout": "Loaded checkpoint: RELEASE/experiments/burgers/corrupted_prompt/run/ckpt/params_step_200000.msgpack\nLoaded checkpoint: RELEASE/experiments/burgers/checkpoints/main/params_step_200000.msgpack\n",
+      "stderr": "2026-10-13 19:02:28.505084: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.\n"
+    },
+    {
+      "name": "archived_figure_redraws",
+      "returncode": 0,
+      "seconds": 44.93052845803322,
+      "arguments": [
+        "scripts/reproduce_plots.py",
+        "--output-dir",
+        "RELEASE/outputs/verification/plots"
+      ],
+      "stdout": "scripts/plot/replot_square_feature_maps.py\nscripts/plot/plot_current_burgers.py\nscripts/plot/render_regime_comparisons.py\nscripts/revision/plot_prompt_variability.py\nscripts/revision/plot_context_size.py\nscripts/revision/plot_training_proximity.py\nscripts/revision/plot_prompt_variability.py\nscripts/revision/plot_context_size.py\nscripts/revision/plot_training_proximity.py\nscripts/revision/plot_prompt_variability.py\nscripts/revision/plot_context_size.py\nscripts/revision/plot_training_proximity.py\nscripts/revision/plot_demo_parameter_noise.py\nscripts/revision/plot_solver_convergence.py\nscripts/plot/redraw_detail_panels.py\nFailed commands: 0\n",
+      "stderr": ""
+    },
+    {
+      "name": "figure_asset_export",
+      "returncode": 0,
+      "seconds": 0.06077186297625303,
+      "arguments": [
+        "scripts/export_figures.py",
+        "--output-dir",
+        "RELEASE/outputs/verification/exported"
+      ],
+      "stdout": "Exported 24 preserved assets for 22 figures; no numerical reevaluation.\n",
+      "stderr": ""
+    }
+  ],
+  "failed_checks": [],
+  "scope": "representative reproduction only; no full retraining, full sweep, bandwidth control evaluation or reverse-Jacobian feature-map recertification"
+}

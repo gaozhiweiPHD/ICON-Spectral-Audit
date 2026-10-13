@@ -1,0 +1,224 @@
+[
+  {
+    "figure": 1,
+    "label": "fig:adv_rel_l2",
+    "assets": [
+      "figures/manuscript/advection_spectral_robustness_summary.pdf"
+    ],
+    "source_data": "results/revision/prompt_variability/advection_prompt_stats_full_range.csv",
+    "command": "python scripts/revision/plot_prompt_variability.py --pde advection --output-dir outputs/adv-summary",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 2,
+    "label": "fig:adv_query_spectrum",
+    "assets": [
+      "figures/manuscript/advection_query_spectrum_over_c_with_cumulative_relative_error.png"
+    ],
+    "source_data": "experiments/advection/figures/current/advection_aligned_paper_style_diagnostics_results.npz",
+    "command": "python scripts/plot/render_regime_comparisons.py --output-dir outputs/regimes",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 3,
+    "label": "fig:adv_phase_block_error",
+    "assets": [
+      "figures/manuscript/advection_phase_block_error_over_c.png"
+    ],
+    "source_data": "same advection NPZ as Figure 2",
+    "command": "python scripts/plot/redraw_detail_panels.py --output-dir outputs/details",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 4,
+    "label": "fig:adv_feature_map",
+    "assets": [
+      "figures/manuscript/fig04_square_feature_map.pdf"
+    ],
+    "source_data": "same advection NPZ as Figure 2",
+    "command": "python scripts/plot/replot_square_feature_maps.py --output-dir outputs/maps",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 5,
+    "label": "fig:adv_demo_noise",
+    "assets": [
+      "figures/manuscript/advection_demo_parameter_noise.pdf"
+    ],
+    "source_data": "results/revision/demo_parameter_noise/advection_demo_parameter_noise.csv",
+    "command": "python scripts/revision/plot_demo_parameter_noise.py --output outputs/noise.png",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 6,
+    "label": "fig:burgers_pred_error",
+    "assets": [
+      "figures/manuscript/burgers_spectral_robustness_summary.pdf"
+    ],
+    "source_data": "results/revision/prompt_variability/burgers_prompt_stats_full_range.csv",
+    "command": "python scripts/revision/plot_prompt_variability.py --pde burgers --output-dir outputs/burgers-summary",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 7,
+    "label": "fig:burgers_base_context_spectrum",
+    "assets": [
+      "figures/manuscript/burgers_base_state_context_spectrum_with_cumulative_relative_error.png"
+    ],
+    "source_data": "experiments/burgers/figures/current/burgers_paper_style_diagnostics_results.npz",
+    "command": "python scripts/plot/plot_current_burgers.py --output-dir outputs/burgers",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 8,
+    "label": "fig:burgers_feature_map",
+    "assets": [
+      "figures/manuscript/fig07_square_feature_map.pdf"
+    ],
+    "source_data": "experiments/revision/feature_map/burgers_near_shock_16_pairs.npz",
+    "command": "python scripts/plot/replot_square_feature_maps.py --output-dir outputs/maps",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 9,
+    "label": "fig:burgers_wrong_prediction",
+    "assets": [
+      "figures/manuscript/burgers_wrong_relative_prediction_error_over_hidden_viscosity.png"
+    ],
+    "source_data": "experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_negative_control_results.npz",
+    "command": "python scripts/plot/render_regime_comparisons.py --output-dir outputs/regimes",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 10,
+    "label": "fig:burgers_wrong_query_spectrum",
+    "assets": [
+      "figures/manuscript/burgers_wrong_query_spectrum_with_cumulative_relative_error.png"
+    ],
+    "source_data": "same corrupted-prompt NPZ as Figure 9",
+    "command": "python scripts/plot/render_regime_comparisons.py --output-dir outputs/regimes",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 11,
+    "label": "fig:burgers_wrong_feature_map",
+    "assets": [
+      "figures/manuscript/fig10_square_feature_map.pdf"
+    ],
+    "source_data": "same corrupted-prompt NPZ as Figure 9; 14 Fourier pairs",
+    "command": "python scripts/plot/replot_square_feature_maps.py --output-dir outputs/maps",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 12,
+    "label": "fig:ac_pred_error",
+    "assets": [
+      "figures/manuscript/allen_cahn_spectral_robustness_summary.pdf"
+    ],
+    "source_data": "results/revision/prompt_variability/allen_cahn_prompt_stats_full_range.csv",
+    "command": "python scripts/revision/plot_prompt_variability.py --pde allen_cahn --output-dir outputs/ac-summary",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 13,
+    "label": "fig:ac_base_context_spectrum",
+    "assets": [
+      "figures/manuscript/allen_cahn_base_state_context_spectrum_with_cumulative_relative_error.png"
+    ],
+    "source_data": "experiments/allen_cahn/figures/current/allen_cahn_paper_style_diagnostics_results.npz",
+    "command": "python scripts/plot/redraw_detail_panels.py --output-dir outputs/details",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 14,
+    "label": "fig:ac_feature_map",
+    "assets": [
+      "figures/manuscript/fig13_square_feature_map.pdf"
+    ],
+    "source_data": "same Allen\u2013Cahn NPZ as Figure 13; interface base state",
+    "command": "python scripts/plot/replot_square_feature_maps.py --output-dir outputs/maps",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 15,
+    "label": "fig:burgers_base_pred",
+    "assets": [
+      "figures/manuscript/burgers_base_state_predictions.png"
+    ],
+    "source_data": "Burgers main NPZ base_prediction_* arrays",
+    "command": "python scripts/plot/redraw_detail_panels.py --output-dir outputs/details",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 16,
+    "label": "fig:ac_base_pred",
+    "assets": [
+      "figures/manuscript/allen_cahn_base_state_predictions.png"
+    ],
+    "source_data": "archived image only; base prediction arrays absent from saved Allen\u2013Cahn NPZ",
+    "command": "python scripts/export_figures.py --output-dir outputs/manuscript-assets",
+    "mode": "preserved-asset export only"
+  },
+  {
+    "figure": 17,
+    "label": "fig:adv_ablation_prediction",
+    "assets": [
+      "figures/manuscript/advection_ablation_prediction_error_over_c.png"
+    ],
+    "source_data": "archived image; prediction means/SDs missing from ablation NPZ",
+    "command": "python scripts/export_figures.py --output-dir outputs/manuscript-assets",
+    "mode": "preserved-asset export only"
+  },
+  {
+    "figure": 18,
+    "label": "fig:adv_ablation_query_spectrum",
+    "assets": [
+      "figures/manuscript/advection_ablation_query_spectrum_c0.80.png"
+    ],
+    "source_data": "experiments/advection/bandwidth_ablation/figures/advection_mode_ablation_results.npz",
+    "command": "python scripts/plot/redraw_detail_panels.py --output-dir outputs/details",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 19,
+    "label": "fig:adv_ablation_phase",
+    "assets": [
+      "figures/manuscript/advection_ablation_phase_block_error_c0.80.png"
+    ],
+    "source_data": "same bandwidth-ablation NPZ as Figure 18",
+    "command": "python scripts/plot/redraw_detail_panels.py --output-dir outputs/details",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 20,
+    "label": "fig:adv_ablation_feature_map",
+    "assets": [
+      "figures/manuscript/fig19_square_feature_map.pdf"
+    ],
+    "source_data": "same bandwidth-ablation NPZ as Figure 18",
+    "command": "python scripts/plot/replot_square_feature_maps.py --output-dir outputs/maps",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 21,
+    "label": "fig:training_proximity",
+    "assets": [
+      "figures/manuscript/advection_training_proximity.pdf"
+    ],
+    "source_data": "experiments/revision/training_proximity/advection_training_proximity.csv",
+    "command": "python scripts/revision/plot_training_proximity.py --pde advection --output outputs/proximity.png",
+    "mode": "archived-data redraw; layout may differ"
+  },
+  {
+    "figure": 22,
+    "label": "fig:context_size",
+    "assets": [
+      "figures/manuscript/advection_context_size.pdf",
+      "figures/manuscript/burgers_context_size.pdf",
+      "figures/manuscript/allen_cahn_context_size.pdf"
+    ],
+    "source_data": "experiments/revision/context_size/{advection,burgers,allen_cahn}_context_size.csv",
+    "command": "python scripts/revision/plot_context_size.py --pde PDE --output outputs/PDE-context.png",
+    "mode": "archived-data redraw; layout may differ"
+  }
+]

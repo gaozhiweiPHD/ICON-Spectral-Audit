@@ -1,0 +1,7 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_current_manuscript_assets (test_release_integrity.ReleaseTests.test_current_manuscript_assets) ... ok\ntest_projected_jacobian_error_arrays (test_release_integrity.ReleaseTests.test_projected_jacobian_error_arrays) ... ok\ntest_synthetic_example_shapes (test_release_integrity.ReleaseTests.test_synthetic_example_shapes) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.072s\n\nOK\n",
+  "scope": "22 figure references, three 32x32 projected-Jacobian error identities, three finite six-pair example files"
+}

@@ -1,0 +1,1014 @@
+{
+  "source": "all three archived full-range repeated-context CSVs",
+  "uncertainty": "sample SD, not CI",
+  "statistics": [
+    {
+      "PDE": "advection",
+      "parameter": 0.3,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.358196496963501,
+      "sample_sd": 0.1640541065407724
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.3,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.14722857251763344,
+      "sample_sd": 0.07261137448402166
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.3,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.336341267683281,
+      "sample_sd": 0.06399580431501203
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.3,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.156868995999018,
+      "sample_sd": 0.06988051080047003
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.4,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.8050807654857636,
+      "sample_sd": 0.044343695659724826
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.4,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.09270598255097866,
+      "sample_sd": 0.05737783572049887
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.4,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.4052015327655865,
+      "sample_sd": 0.08306847059335143
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.4,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.2333294865730353,
+      "sample_sd": 0.10110888550006096
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.5,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.04371299967169762,
+      "sample_sd": 0.016379387434676325
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.5,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.022841988317668437,
+      "sample_sd": 0.0005231643329322808
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.5,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.06849884828658742,
+      "sample_sd": 0.026305326308336697
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.5,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.051023196203996715,
+      "sample_sd": 0.02657058706462697
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.6,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.016214348189532757,
+      "sample_sd": 0.0067266955020585505
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.6,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.016143742948770523,
+      "sample_sd": 0.0006039365791320408
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.6,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.045162815804724823,
+      "sample_sd": 0.019457174132993766
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.6,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.028394390259040586,
+      "sample_sd": 0.021303285793035996
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.7,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.01641717404127121,
+      "sample_sd": 0.0016247492315030051
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.7,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.01477699363604188,
+      "sample_sd": 0.0008100386859686949
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.7,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.034912010449669205,
+      "sample_sd": 0.006448773527922497
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.7,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.022115852346344105,
+      "sample_sd": 0.007659586824830194
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.8,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.02218022905290127,
+      "sample_sd": 0.009801269645851122
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.8,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.01496764412149787,
+      "sample_sd": 0.0005424549110358403
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.8,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.045242194144002004,
+      "sample_sd": 0.022338719938113646
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.8,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.03215706450788558,
+      "sample_sd": 0.02160354767232885
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.9,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.01570402691140771,
+      "sample_sd": 0.004372137491554107
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.9,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.018846868351101876,
+      "sample_sd": 0.0008962448728158018
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.9,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.05773604607203586,
+      "sample_sd": 0.01954697683848908
+    },
+    {
+      "PDE": "advection",
+      "parameter": 0.9,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.035933628713200064,
+      "sample_sd": 0.023475207953761304
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.0,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.03379343841224909,
+      "sample_sd": 0.011062991560002625
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.0,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.02067179512232542,
+      "sample_sd": 0.0007088279826493613
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.0,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.10598774084967728,
+      "sample_sd": 0.037850479030104384
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.0,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.0857883433362466,
+      "sample_sd": 0.03736181054681829
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.1,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.9121061384677887,
+      "sample_sd": 0.02840010735385583
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.1,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.03170061334967613,
+      "sample_sd": 0.003575280046574554
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.1,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.408715479882255,
+      "sample_sd": 0.043211430689626726
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.1,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.2592669300068025,
+      "sample_sd": 0.05601701942213476
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.2,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.0190385222434997,
+      "sample_sd": 0.059564065645971505
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.2,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.053466207534074786,
+      "sample_sd": 0.023270278886831038
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.2,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.3990138937994587,
+      "sample_sd": 0.049720338507084905
+    },
+    {
+      "PDE": "advection",
+      "parameter": 1.2,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 1.2478423903730866,
+      "sample_sd": 0.06063325694558623
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.002,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.12914149910211564,
+      "sample_sd": 0.0028735269411287482
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.002,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.3932307869195938,
+      "sample_sd": 0.00918982249427404
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.002,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.43100767731666567,
+      "sample_sd": 0.0053793440359464414
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.002,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.0035,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.04877979755401611,
+      "sample_sd": 0.0016657524605722374
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.0035,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.12383685708045959,
+      "sample_sd": 0.005583313968161105
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.0035,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.24013612568378448,
+      "sample_sd": 0.006652690143465111
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.0035,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.005,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.048258932307362556,
+      "sample_sd": 0.002778663343611715
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.005,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.050300057604908945,
+      "sample_sd": 0.003958726070878147
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.005,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.1138950191438198,
+      "sample_sd": 0.003907153886197348
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.005,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.01,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.017052219435572624,
+      "sample_sd": 0.0022352739995598323
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.01,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.036559710279107094,
+      "sample_sd": 0.0016104978401313929
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.01,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.06634688079357147,
+      "sample_sd": 0.0015793568036495884
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.01,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.02,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.009790022531524301,
+      "sample_sd": 0.0013588687545685472
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.02,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.026172992400825025,
+      "sample_sd": 0.0018691340467982243
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.02,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.038677338510751724,
+      "sample_sd": 0.0027487974173478623
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.02,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.035,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.02270952668040991,
+      "sample_sd": 0.0023986555021850427
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.035,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.03380511701107025,
+      "sample_sd": 0.0017219833342898999
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.035,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.04244848787784576,
+      "sample_sd": 0.0022480849730203466
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.035,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.05,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.010364630911499261,
+      "sample_sd": 0.0023168241414264308
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.05,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.04864517226815224,
+      "sample_sd": 0.0017565504390040616
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.05,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.05978356935083866,
+      "sample_sd": 0.0016848404688846106
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.05,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.07,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.1260180026292801,
+      "sample_sd": 0.02552523002071293
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.07,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.1394895501434803,
+      "sample_sd": 0.03445701272456173
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.07,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.18321492224931718,
+      "sample_sd": 0.043642967229981955
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.07,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.1,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.1,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.1,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "burgers",
+      "parameter": 0.1,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.01,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.027138368040323258,
+      "sample_sd": 0.0039750754844792135
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.01,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.07822025530040264,
+      "sample_sd": 0.016233851025736327
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.01,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.08680660426616668,
+      "sample_sd": 0.012523844762946497
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.01,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.015,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.013659347128123046,
+      "sample_sd": 0.0017028895808007263
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.015,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.04564579352736473,
+      "sample_sd": 0.004494340004512758
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.015,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.0493122361600399,
+      "sample_sd": 0.004129494942214052
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.015,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.02,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.008014489710330964,
+      "sample_sd": 0.0003667751028948929
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.02,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.012326204124838114,
+      "sample_sd": 0.0010047277827372738
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.02,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.016418426483869552,
+      "sample_sd": 0.0008701599325590316
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.02,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.035,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.004530073795467615,
+      "sample_sd": 0.00042264063861770294
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.035,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.007638840796425938,
+      "sample_sd": 0.0017557988621520557
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.035,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.015483681764453649,
+      "sample_sd": 0.0022208051418948767
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.035,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.05,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.00309100158046931,
+      "sample_sd": 0.00022370143393324438
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.05,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.005048004444688559,
+      "sample_sd": 0.0005299414478835942
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.05,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.011664900183677673,
+      "sample_sd": 0.0006639544394308013
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.05,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.065,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.005920811695978046,
+      "sample_sd": 0.0006023993044474794
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.065,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.0044806876452639696,
+      "sample_sd": 0.0009823063266131726
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.065,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.012959031946957111,
+      "sample_sd": 0.0006493257465045916
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.065,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.08,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.0029911369318142535,
+      "sample_sd": 0.0003348981399557483
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.08,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.011340644024312497,
+      "sample_sd": 0.0005574515924879919
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.08,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.022384266555309295,
+      "sample_sd": 0.0009170798896369626
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.08,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.1,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.016832418367266656,
+      "sample_sd": 0.0030254165599591914
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.1,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.05573439374566078,
+      "sample_sd": 0.011059705811458919
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.1,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.07043609395623207,
+      "sample_sd": 0.007942075977279844
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.1,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.12,
+      "metric": "prediction_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.12802498638629914,
+      "sample_sd": 0.019191071806033657
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.12,
+      "metric": "spectral_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.15434203445911407,
+      "sample_sd": 0.021376997572837012
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.12,
+      "metric": "matrix_error",
+      "rows": 10,
+      "finite_rows": 10,
+      "mean": 0.16920597106218338,
+      "sample_sd": 0.015542426525627017
+    },
+    {
+      "PDE": "allen_cahn",
+      "parameter": 0.12,
+      "metric": "block_error",
+      "rows": 10,
+      "finite_rows": 0,
+      "mean": null,
+      "sample_sd": null
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "archived_csvs": [
+    {
+      "path": "experiments/revision/context_size/advection_context_size.csv",
+      "rows": 150,
+      "fields": [
+        "PDE",
+        "parameter",
+        "N_demo",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1.0
+      ],
+      "N_demo": [
+        1.0,
+        3.0,
+        5.0
+      ],
+      "prompt_seed_range": [
+        21261001,
+        25301010
+      ],
+      "query_seed_range": [
+        20361001,
+        20361005
+      ]
+    },
+    {
+      "path": "experiments/revision/context_size/allen_cahn_context_size.csv",
+      "rows": 150,
+      "fields": [
+        "PDE",
+        "parameter",
+        "N_demo",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.02,
+        0.035,
+        0.05,
+        0.065,
+        0.08
+      ],
+      "N_demo": [
+        1.0,
+        3.0,
+        5.0
+      ],
+      "prompt_seed_range": [
+        21261001,
+        25301010
+      ],
+      "query_seed_range": [
+        20361001,
+        20361005
+      ]
+    },
+    {
+      "path": "experiments/revision/context_size/burgers_context_size.csv",
+      "rows": 150,
+      "fields": [
+        "PDE",
+        "parameter",
+        "N_demo",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.005,
+        0.0125,
+        0.025,
+        0.0375,
+        0.05
+      ],
+      "N_demo": [
+        1.0,
+        3.0,
+        5.0
+      ],
+      "prompt_seed_range": [
+        21261001,
+        25301010
+      ],
+      "query_seed_range": [
+        20361001,
+        20361005
+      ]
+    },
+    {
+      "path": "experiments/revision/solver_convergence/solver_convergence.csv",
+      "rows": 8,
+      "fields": [
+        "PDE",
+        "parameter",
+        "seed",
+        "sample",
+        "baseline_grid",
+        "baseline_steps",
+        "time_refined_steps",
+        "space_refined_grid",
+        "space_time_refined_steps",
+        "baseline_vs_time_refined_rel_l2",
+        "baseline_vs_space_time_refined_rel_l2"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.02,
+        0.05
+      ],
+      "seed": [
+        20261004.0,
+        20261005.0
+      ]
+    },
+    {
+      "path": "experiments/revision/training_proximity/advection_training_proximity.csv",
+      "rows": 30,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "d_NN",
+        "prediction_error",
+        "spectral_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1.0
+      ],
+      "prompt_seed_range": [
+        20261003,
+        20261032
+      ],
+      "query_seed_range": [
+        20361003,
+        20361032
+      ]
+    },
+    {
+      "path": "experiments/revision/training_proximity/allen_cahn_training_proximity.csv",
+      "rows": 30,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "d_NN",
+        "prediction_error",
+        "spectral_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.02,
+        0.035,
+        0.05,
+        0.065,
+        0.08
+      ],
+      "prompt_seed_range": [
+        20261003,
+        20261032
+      ],
+      "query_seed_range": [
+        20361003,
+        20361032
+      ]
+    },
+    {
+      "path": "experiments/revision/training_proximity/burgers_training_proximity.csv",
+      "rows": 30,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "d_NN",
+        "prediction_error",
+        "spectral_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.005,
+        0.0125,
+        0.025,
+        0.0375,
+        0.05
+      ],
+      "prompt_seed_range": [
+        20261003,
+        20261032
+      ],
+      "query_seed_range": [
+        20361003,
+        20361032
+      ]
+    },
+    {
+      "path": "results/revision/demo_parameter_noise/advection_demo_parameter_noise.csv",
+      "rows": 120,
+      "fields": [
+        "PDE",
+        "c_query",
+        "sigma",
+        "prompt_seed",
+        "query_seed",
+        "demo_speeds",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "sigma": [
+        0.0,
+        0.01,
+        0.025,
+        0.05
+      ],
+      "c_query": [
+        0.6,
+        0.8,
+        1.0
+      ],
+      "prompt_seed_range": [
+        20261002,
+        20464011
+      ],
+      "query_seed_range": [
+        20361002,
+        20361004
+      ]
+    },
+    {
+      "path": "results/revision/prompt_variability/advection_prompt_stats.csv",
+      "rows": 50,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1.0
+      ],
+      "prompt_seed_range": [
+        20260929,
+        20300938
+      ],
+      "query_seed_range": [
+        20360929,
+        20360933
+      ]
+    },
+    {
+      "path": "results/revision/prompt_variability/advection_prompt_stats_full_range.csv",
+      "rows": 100,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2
+      ],
+      "prompt_seed_range": [
+        20260929,
+        20350938
+      ],
+      "query_seed_range": [
+        20360929,
+        20360938
+      ]
+    },
+    {
+      "path": "results/revision/prompt_variability/allen_cahn_prompt_stats.csv",
+      "rows": 50,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.02,
+        0.035,
+        0.05,
+        0.065,
+        0.08
+      ],
+      "prompt_seed_range": [
+        20260929,
+        20300938
+      ],
+      "query_seed_range": [
+        20360929,
+        20360933
+      ]
+    },
+    {
+      "path": "results/revision/prompt_variability/allen_cahn_prompt_stats_full_range.csv",
+      "rows": 90,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.01,
+        0.015,
+        0.02,
+        0.035,
+        0.05,
+        0.065,
+        0.08,
+        0.1,
+        0.12
+      ],
+      "prompt_seed_range": [
+        20260929,
+        20340938
+      ],
+      "query_seed_range": [
+        20360929,
+        20360937
+      ]
+    },
+    {
+      "path": "results/revision/prompt_variability/burgers_prompt_stats.csv",
+      "rows": 50,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.005,
+        0.0125,
+        0.025,
+        0.0375,
+        0.05
+      ],
+      "prompt_seed_range": [
+        20260929,
+        20300938
+      ],
+      "query_seed_range": [
+        20360929,
+        20360933
+      ]
+    },
+    {
+      "path": "results/revision/prompt_variability/burgers_prompt_stats_full_range.csv",
+      "rows": 90,
+      "fields": [
+        "PDE",
+        "parameter",
+        "prompt_seed",
+        "query_seed",
+        "prediction_error",
+        "spectral_error",
+        "matrix_error",
+        "block_error"
+      ],
+      "source": "archived synthetic experiment",
+      "manuscript_use": "see docs/MANUSCRIPT_FIGURES.md",
+      "parameter": [
+        0.002,
+        0.0035,
+        0.005,
+        0.01,
+        0.02,
+        0.035,
+        0.05,
+        0.07,
+        0.1
+      ],
+      "prompt_seed_range": [
+        20260929,
+        20340938
+      ],
+      "query_seed_range": [
+        20360929,
+        20360937
+      ]
+    }
+  ],
+  "total_archived_rows": 1098,
+  "training_pools": "synthetically generated in memory, not stored; original JAX PRNG splitting authoritative",
+  "new_samples": "data/samples/PROVENANCE.json",
+  "external_experimental_data": false,
+  "licenses": "author decision pending"
+}

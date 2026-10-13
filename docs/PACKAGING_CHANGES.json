@@ -1,0 +1,43 @@
+[
+  {
+    "path": "experiments/advection/bandwidth_ablation/figures/advection_mode_ablation_results.npz",
+    "change": "removed machine paths from string metadata",
+    "field": "ckpt8"
+  },
+  {
+    "path": "experiments/advection/bandwidth_ablation/figures/advection_mode_ablation_results.npz",
+    "change": "removed machine paths from string metadata",
+    "field": "ckpt16"
+  },
+  {
+    "path": "experiments/advection/notebooks/icon2.ipynb",
+    "change": "notebook outputs, metadata and local paths removed"
+  },
+  {
+    "path": "experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_negative_control_results.npz",
+    "change": "removed machine paths from string metadata",
+    "field": "wrong_ckpt"
+  },
+  {
+    "path": "experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_negative_control_results.npz",
+    "change": "removed machine paths from string metadata",
+    "field": "clean_ckpt"
+  },
+  {
+    "path": "experiments/burgers/notebooks/icon_burgers.ipynb",
+    "change": "notebook outputs, metadata and local paths removed"
+  },
+  {
+    "path": "experiments/revision/feature_map/burgers_near_shock_16_pairs.npz",
+    "change": "removed machine paths from string metadata",
+    "field": "metadata"
+  },
+  {
+    "path": "src/common/project.py",
+    "change": "Added optional ICON_RUN_ROOT to redirect training output; original default preserved"
+  },
+  {
+    "path": "src/common/models_utils.py",
+    "change": "Added upstream attribution comments only"
+  }
+]

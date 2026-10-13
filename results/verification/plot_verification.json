@@ -1,0 +1,189 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/plot/replot_square_feature_maps.py",
+        "--output-dir",
+        "OUTPUT/feature_maps"
+      ],
+      "returncode": 0,
+      "stdout": "saved square feature-map redraws to ./outputs/verification/plots/feature_maps\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/plot/plot_current_burgers.py",
+        "--output-dir",
+        "OUTPUT/burgers"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/plot/render_regime_comparisons.py",
+        "--output-dir",
+        "OUTPUT/regime"
+      ],
+      "returncode": 0,
+      "stdout": "advection_relative_prediction_error_over_hidden_speed_regime_style\nadvection_query_spectrum_training_range_regime_style\nallen_cahn_relative_prediction_error_over_hidden_epsilon_regime_style\nallen_cahn_query_spectrum_over_eps_with_cumulative_relative_error_regime_style\nburgers_relative_prediction_error_over_hidden_viscosity_regime_style\nburgers_query_spectrum_over_c_with_cumulative_relative_error_regime_style\nburgers_wrong_relative_prediction_error_over_hidden_viscosity_regime_style\nburgers_wrong_query_spectrum_with_cumulative_relative_error_regime_style\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_prompt_variability.py",
+        "--pde",
+        "advection",
+        "--output-dir",
+        "OUTPUT/summaries"
+      ],
+      "returncode": 0,
+      "stdout": "plotting ./results/revision/prompt_variability/advection_prompt_stats_full_range.csv with parameter range [0.3, 1.2] (10 points)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_context_size.py",
+        "--pde",
+        "advection",
+        "--output",
+        "OUTPUT/advection_context_size.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_training_proximity.py",
+        "--pde",
+        "advection",
+        "--output",
+        "OUTPUT/advection_training_proximity.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_prompt_variability.py",
+        "--pde",
+        "burgers",
+        "--output-dir",
+        "OUTPUT/summaries"
+      ],
+      "returncode": 0,
+      "stdout": "plotting ./results/revision/prompt_variability/burgers_prompt_stats_full_range.csv with parameter range [0.002, 0.1] (9 points)\n",
+      "stderr": "./src/plotting/style.py:66: RuntimeWarning: Mean of empty slice\n  mean = np.nanmean(values, axis=0)\n"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_context_size.py",
+        "--pde",
+        "burgers",
+        "--output",
+        "OUTPUT/burgers_context_size.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_training_proximity.py",
+        "--pde",
+        "burgers",
+        "--output",
+        "OUTPUT/burgers_training_proximity.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_prompt_variability.py",
+        "--pde",
+        "allen_cahn",
+        "--output-dir",
+        "OUTPUT/summaries"
+      ],
+      "returncode": 0,
+      "stdout": "plotting ./results/revision/prompt_variability/allen_cahn_prompt_stats_full_range.csv with parameter range [0.01, 0.12] (9 points)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_context_size.py",
+        "--pde",
+        "allen_cahn",
+        "--output",
+        "OUTPUT/allen_cahn_context_size.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_training_proximity.py",
+        "--pde",
+        "allen_cahn",
+        "--output",
+        "OUTPUT/allen_cahn_training_proximity.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_demo_parameter_noise.py",
+        "--output",
+        "OUTPUT/advection_demo_parameter_noise.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_solver_convergence.py",
+        "--output",
+        "OUTPUT/solver_convergence.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/plot/redraw_detail_panels.py",
+        "--output-dir",
+        "OUTPUT/details"
+      ],
+      "returncode": 0,
+      "stdout": "advection_phase_block_error_over_c\nallen_cahn_base_state_context_spectrum_with_cumulative_relative_error\n",
+      "stderr": ""
+    }
+  ],
+  "failed": 0,
+  "scope": "redraws from archived arrays; exact raster/layout equality is not asserted"
+}

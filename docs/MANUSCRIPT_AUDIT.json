@@ -1,0 +1,15 @@
+{
+  "source": "ICON/paper/main.tex (not included)",
+  "sha256": "ba1a936988f3f901f80c9e80db2a6b2fe72b5b98837b84945732c7a92f6e30eb",
+  "figures": 22,
+  "assets": 24,
+  "standalone_supplement_found": false,
+  "appendices_in_main_source": true,
+  "availability_sections": "Both promise future public deposition; replace only after verified public release",
+  "excluded_private_documents": [
+    "reviewer response",
+    "reviewer audit",
+    "Overleaf ZIP",
+    "manuscript PDF/source"
+  ]
+}

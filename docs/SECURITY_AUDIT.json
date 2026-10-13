@@ -1,0 +1,8 @@
+{
+  "files_scanned": 151,
+  "bytes": 100888477,
+  "largest_file_bytes": 18980320,
+  "findings": [],
+  "scope": "Credential regexes on text; safe NPZ metadata; file sizes and syntax. No credential values are reported. Binary weights/PDF/images are not exhaustively analyzed; absence of regex findings is not a guarantee.",
+  "manifest_note": "FILE_INVENTORY lists all scanned files; generated inventory/security/data manifest rows have blank size/hash to avoid circular hashes. Totals describe files before report regeneration."
+}

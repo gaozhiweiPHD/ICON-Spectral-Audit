@@ -1,0 +1,364 @@
+path,type,bytes,disposition
+README.md,file,7305,excluded: private correspondence/manuscript build or redundant figure/archive/log
+icon2.py,symlink,,excluded: alias; authoritative files are inventoried separately
+icon_ac.py,symlink,,excluded: alias; authoritative files are inventoried separately
+icon_ac_plot.py,symlink,,excluded: alias; authoritative files are inventoried separately
+icon_advection_low.py,symlink,,excluded: alias; authoritative files are inventoried separately
+icon_advection_low_plot.py,symlink,,excluded: alias; authoritative files are inventoried separately
+icon_burgers.py,symlink,,excluded: alias; authoritative files are inventoried separately
+icon_burgers_wrong.py,symlink,,excluded: alias; authoritative files are inventoried separately
+icon_burgers_wrong_plot.py,symlink,,excluded: alias; authoritative files are inventoried separately
+icon_plot.py,symlink,,excluded: alias; authoritative files are inventoried separately
+models_utils.py,symlink,,excluded: alias; authoritative files are inventoried separately
+move_manifest.tsv,file,3877,excluded: private correspondence/manuscript build or redundant figure/archive/log
+proposed_deletions.txt,file,398,excluded: private correspondence/manuscript build or redundant figure/archive/log
+reorganization_inventory.txt,file,5386,excluded: private correspondence/manuscript build or redundant figure/archive/log
+reorganization_report.md,file,5816,excluded: private correspondence/manuscript build or redundant figure/archive/log
+archive/legacy_notebooks/NTK.ipynb,file,360608,excluded: private correspondence/manuscript build or redundant figure/archive/log
+archive/legacy_notebooks/mlp.ipynb,file,450474,excluded: private correspondence/manuscript build or redundant figure/archive/log
+configs/environment.md,file,708,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/bandwidth_ablation/evaluate_mode_ablation.py,file,33472,included
+experiments/advection/bandwidth_ablation/train_frequency8.py,file,46874,included
+experiments/advection/bandwidth_ablation/figures/advection_ablation_fourier_feature_maps_c0.80.png,file,111527,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/bandwidth_ablation/figures/advection_ablation_phase_block_error_c0.80.png,file,124036,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/bandwidth_ablation/figures/advection_ablation_prediction_error_over_c.png,file,227729,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/bandwidth_ablation/figures/advection_ablation_query_spectrum_c0.80.png,file,278990,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/bandwidth_ablation/figures/advection_ablation_query_spectrum_cos_c0.80.png,file,102927,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/bandwidth_ablation/figures/advection_mode_ablation_results.npz,file,41320,included
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_010000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_020000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_030000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_040000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_050000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_060000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_070000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_080000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_090000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_100000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_110000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_120000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_130000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_140000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_150000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_160000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_170000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_180000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_190000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/bandwidth_ablation/frequency8_run/ckpt/params_step_200000.msgpack,file,18980320,included
+experiments/advection/bandwidth_ablation/frequency8_run/data/advection_frequency8_training_curves.npz,file,3694,included
+experiments/advection/checkpoints/main/params_step_010000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_020000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_030000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_040000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_050000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_060000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_070000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_080000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_090000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_100000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_110000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_120000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_130000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_140000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_150000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_160000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_170000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_180000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_190000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/advection/checkpoints/main/params_step_200000.msgpack,file,18980320,included
+experiments/advection/evaluation/evaluate_advection.py,file,46120,included
+experiments/advection/figures/current/advection_aligned_paper_style_diagnostics_results.npz,file,40908,included
+experiments/advection/figures/current/advection_fourier_feature_maps_true_icon_absolute_error.pdf,file,25938,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_fourier_feature_maps_true_icon_absolute_error.png,file,122730,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_phase_block_error_over_c.pdf,file,19398,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_phase_block_error_over_c.png,file,161374,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_query_spectrum_over_c_with_cumulative_relative_error.pdf,file,55698,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_query_spectrum_over_c_with_cumulative_relative_error.png,file,378258,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_relative_prediction_error_over_hidden_speed.pdf,file,14323,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_relative_prediction_error_over_hidden_speed.png,file,75918,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_representative_prediction.pdf,file,21425,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_representative_prediction.png,file,181955,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/advection/figures/current/advection_training_curves.npz,file,3440,included
+experiments/advection/notebooks/icon2.ipynb,file,5598826,included with notebook outputs/metadata cleared
+experiments/advection/training/train_advection.py,file,46478,included
+experiments/allen_cahn/checkpoints/main/params_step_010000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_020000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_030000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_040000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_050000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_060000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_070000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_080000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_090000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_100000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_110000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_120000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_130000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_140000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_150000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_160000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_170000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_180000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_190000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/allen_cahn/checkpoints/main/params_step_200000.msgpack,file,18980320,included
+experiments/allen_cahn/evaluation/evaluate_allen_cahn.py,file,52851,included
+experiments/allen_cahn/figures/current/allen_cahn_base_state_context_spectrum_with_cumulative_relative_error.pdf,file,51195,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_base_state_context_spectrum_with_cumulative_relative_error.png,file,906959,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_base_state_predictions.pdf,file,27039,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_base_state_predictions.png,file,392142,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_fourier_feature_blocks_interface_true_icon_absolute_error.pdf,file,35336,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_fourier_feature_blocks_interface_true_icon_absolute_error.png,file,240496,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_fourier_feature_blocks_moderate_true_icon_absolute_error.pdf,file,36770,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_fourier_feature_blocks_moderate_true_icon_absolute_error.png,file,241999,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_fourier_feature_blocks_near-zero_true_icon_absolute_error.pdf,file,34592,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_fourier_feature_blocks_near-zero_true_icon_absolute_error.png,file,241735,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_fourier_feature_maps_true_icon_absolute_error.pdf,file,44732,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_fourier_feature_maps_true_icon_absolute_error.png,file,328796,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_paper_style_diagnostics_results.npz,file,119254,included
+experiments/allen_cahn/figures/current/allen_cahn_query_spectrum_over_eps_with_cumulative_relative_error.pdf,file,52117,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_query_spectrum_over_eps_with_cumulative_relative_error.png,file,621202,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_relative_prediction_error_over_hidden_epsilon.pdf,file,14393,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/figures/current/allen_cahn_relative_prediction_error_over_hidden_epsilon.png,file,96482,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/allen_cahn/training/train_allen_cahn.py,file,47342,included
+experiments/burgers/checkpoints/main/params_step_010000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_020000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_030000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_040000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_050000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_060000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_070000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_080000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_090000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_100000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_110000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_120000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_130000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_140000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_150000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_160000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_170000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_180000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_190000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/checkpoints/main/params_step_200000.msgpack,file,18980320,included
+experiments/burgers/checkpoints/main/training_curves.npz,file,3178,included
+experiments/burgers/corrupted_prompt/evaluate_corrupted_prompt.py,file,50803,included
+experiments/burgers/corrupted_prompt/train_corrupted_prompt.py,file,59125,included
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_010000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_020000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_030000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_040000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_050000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_060000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_070000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_080000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_090000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_100000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_110000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_120000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_130000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_140000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_150000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_160000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_170000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_180000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_190000.msgpack,file,18980320,excluded: intermediate checkpoint retained only in original project
+experiments/burgers/corrupted_prompt/run/ckpt/params_step_200000.msgpack,file,18980320,included
+experiments/burgers/corrupted_prompt/run/data/burgers_corrupted_context_diagnostics_results.npz,file,51478,excluded: legacy object/pickle array; not used by current manuscript
+experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_fourier_feature_blocks_cos_sin_true_icon_error.png,file,185569,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_fourier_feature_map_true_icon_error.png,file,119741,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_negative_control_results.npz,file,29384,included
+experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_query_spectrum_with_cumulative_relative_error.png,file,328871,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_relative_prediction_error_over_hidden_viscosity.png,file,113972,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/corrupted_prompt/run/wrong_eval_figs/burgers_wrong_representative_prediction.png,file,155627,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/figures/current/burgers_base_state_context_spectrum_with_cumulative_relative_error.png,file,794239,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/figures/current/burgers_base_state_predictions.png,file,247213,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/figures/current/burgers_fourier_feature_blocks_near_shock_true_icon_absolute_error.png,file,176941,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/figures/current/burgers_fourier_feature_blocks_smooth_true_icon_absolute_error.png,file,176192,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/figures/current/burgers_fourier_feature_blocks_steep_true_icon_absolute_error.png,file,177352,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/figures/current/burgers_fourier_feature_maps_true_icon_absolute_error.png,file,304950,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/figures/current/burgers_paper_style_diagnostics_results.npz,file,177418,included
+experiments/burgers/figures/current/burgers_query_spectrum_over_c_with_cumulative_relative_error.png,file,274321,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/figures/current/burgers_relative_prediction_error_over_hidden_viscosity.png,file,77780,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/burgers/notebooks/icon_burgers.ipynb,file,1589066,included with notebook outputs/metadata cleared
+experiments/burgers/training/train_burgers.py,file,56528,included
+experiments/revision/context_size/README.md,file,1029,included
+experiments/revision/context_size/advection_context_size.csv,file,17664,included
+experiments/revision/context_size/allen_cahn_context_size.csv,file,15749,included
+experiments/revision/context_size/burgers_context_size.csv,file,15166,included
+experiments/revision/feature_map/burgers_feature_map_16_pairs.png,file,137859,excluded: private correspondence/manuscript build or redundant figure/archive/log
+experiments/revision/feature_map/burgers_near_shock_16_pairs.npz,file,15078,included
+experiments/revision/solver_convergence/solver_convergence.csv,file,932,included
+experiments/revision/solver_convergence/solver_settings.md,file,2324,included
+experiments/revision/training_proximity/README.md,file,561,included
+experiments/revision/training_proximity/advection_training_proximity.csv,file,2899,included
+experiments/revision/training_proximity/allen_cahn_training_proximity.csv,file,2980,included
+experiments/revision/training_proximity/burgers_training_proximity.csv,file,2877,included
+figures/figure_source_map.md,file,5723,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/appendix/fig14_burgers_deterministic_check.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/appendix/fig15_allen_cahn_deterministic_check.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/appendix/fig16_advection_bandwidth_prediction.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/appendix/fig17_advection_bandwidth_spectrum.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/appendix/fig18_advection_bandwidth_phase.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/appendix/fig19_advection_bandwidth_feature_map.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig01_advection_prediction_error.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig02_advection_spectrum.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig03_advection_phase_block.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig04_advection_feature_map.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig05_burgers_prediction_error.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig06_burgers_tangent_spectra.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig07_burgers_feature_map.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig08_burgers_corrupted_prediction.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig09_burgers_corrupted_spectrum.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig10_burgers_corrupted_feature_map.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig11_allen_cahn_prediction_error.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig12_allen_cahn_tangent_spectra.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/main/fig13_allen_cahn_feature_map.png,symlink,,excluded: alias; authoritative files are inventoried separately
+figures/revision/paper_style/advection_context_size.pdf,file,19507,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_context_size.png,file,219846,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_demo_parameter_noise.pdf,file,25980,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_demo_parameter_noise.png,file,302377,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_prediction_error_repeated_prompts.pdf,file,15941,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_prediction_error_repeated_prompts.png,file,105369,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_spectral_robustness_summary.pdf,file,21028,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_spectral_robustness_summary.png,file,208625,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_training_proximity.pdf,file,17291,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/advection_training_proximity.png,file,224795,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/allen_cahn_context_size.pdf,file,19403,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/allen_cahn_context_size.png,file,247523,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/allen_cahn_prediction_error_repeated_prompts.pdf,file,15648,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/allen_cahn_prediction_error_repeated_prompts.png,file,107340,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/allen_cahn_spectral_robustness_summary.pdf,file,20409,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/allen_cahn_spectral_robustness_summary.png,file,228012,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/allen_cahn_training_proximity.pdf,file,17221,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/allen_cahn_training_proximity.png,file,219446,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/burgers_context_size.pdf,file,19696,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/burgers_context_size.png,file,256558,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/burgers_prediction_error_repeated_prompts.pdf,file,16434,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/burgers_prediction_error_repeated_prompts.png,file,111935,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/burgers_spectral_robustness_summary.pdf,file,20951,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/burgers_spectral_robustness_summary.png,file,226564,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/burgers_training_proximity.pdf,file,16979,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/burgers_training_proximity.png,file,215804,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/solver_convergence.pdf,file,10409,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/solver_convergence.png,file,54519,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig04_square_feature_map.pdf,file,37907,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig04_square_feature_map.png,file,146691,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig07_square_feature_map.pdf,file,33881,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig07_square_feature_map.png,file,132285,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig10_square_feature_map.pdf,file,37338,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig10_square_feature_map.png,file,121837,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig13_square_feature_map.pdf,file,36973,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig13_square_feature_map.png,file,147030,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig19_square_feature_map.pdf,file,49349,excluded: private correspondence/manuscript build or redundant figure/archive/log
+figures/revision/paper_style/square_feature_maps/fig19_square_feature_map.png,file,139347,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/context_size_6825780_0.err,file,5008,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/context_size_6825780_0.out,file,26722,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/context_size_6825780_1.err,file,5008,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/context_size_6825780_1.out,file,24340,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/context_size_6825780_2.err,file,5008,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/context_size_6825780_2.out,file,24809,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/demo_parameter_noise_6825163.err,file,1878,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/demo_parameter_noise_6825163.out,file,20436,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6818337_0.err,file,5370,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6818337_0.out,file,484,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6818337_1.err,file,1565,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6818337_1.out,file,8483,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6818337_2.err,file,5384,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6818337_2.out,file,485,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6820293_0.err,file,1878,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6820293_0.out,file,9211,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6820293_2.err,file,1878,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_6820293_2.out,file,8569,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_full_range_6824086_0.err,file,1878,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_full_range_6824086_0.out,file,17533,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_full_range_6824086_1.err,file,1878,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_full_range_6824086_1.out,file,14057,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_full_range_6824086_2.err,file,1878,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/prompt_variability_full_range_6824086_2.out,file,14817,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/training_proximity_6826821_0.err,file,939,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/training_proximity_6826821_0.out,file,2559,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/training_proximity_6826821_1.err,file,939,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/training_proximity_6826821_1.out,file,2681,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/training_proximity_6826821_2.err,file,939,excluded: private correspondence/manuscript build or redundant figure/archive/log
+logs/training_proximity_6826821_2.out,file,2601,excluded: private correspondence/manuscript build or redundant figure/archive/log
+manuscript/revision_notes/reviewer1_required_changes.md,file,2895,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/ICON_paper_overleaf.zip,file,3897519,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/figure_revision_report.md,file,8971,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/figure_revision_verification.json,file,14318,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/main.aux,file,28472,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/main.bbl,file,8325,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/main.blg,file,912,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/main.log,file,42979,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/main.out,file,3545,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/main.pdf,file,4009312,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/main.tex,file,74965,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/manuscript_locations.tex,file,5110,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/references.bib,file,8893,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/response.aux,file,162,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/response.log,file,21355,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/response.out,file,0,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/response.pdf,file,176583,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/response.tex,file,26641,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/reviewer_audit_20261005.md,file,6080,excluded: private correspondence/manuscript build or redundant figure/archive/log
+paper/figures/advection_ablation_phase_block_error_c0.80.png,file,124036,included as figures/manuscript/advection_ablation_phase_block_error_c0.80.png
+paper/figures/advection_ablation_prediction_error_over_c.png,file,227729,included as figures/manuscript/advection_ablation_prediction_error_over_c.png
+paper/figures/advection_ablation_query_spectrum_c0.80.png,file,278990,included as figures/manuscript/advection_ablation_query_spectrum_c0.80.png
+paper/figures/advection_context_size.pdf,file,19507,included as figures/manuscript/advection_context_size.pdf
+paper/figures/advection_demo_parameter_noise.pdf,file,25980,included as figures/manuscript/advection_demo_parameter_noise.pdf
+paper/figures/advection_phase_block_error_over_c.png,file,161374,included as figures/manuscript/advection_phase_block_error_over_c.png
+paper/figures/advection_query_spectrum_over_c_with_cumulative_relative_error.png,file,396658,included as figures/manuscript/advection_query_spectrum_over_c_with_cumulative_relative_error.png
+paper/figures/advection_spectral_robustness_summary.pdf,file,22873,included as figures/manuscript/advection_spectral_robustness_summary.pdf
+paper/figures/advection_training_proximity.pdf,file,17291,included as figures/manuscript/advection_training_proximity.pdf
+paper/figures/allen_cahn_base_state_context_spectrum_with_cumulative_relative_error.png,file,906959,included as figures/manuscript/allen_cahn_base_state_context_spectrum_with_cumulative_relative_error.png
+paper/figures/allen_cahn_base_state_predictions.png,file,392142,included as figures/manuscript/allen_cahn_base_state_predictions.png
+paper/figures/allen_cahn_context_size.pdf,file,19403,included as figures/manuscript/allen_cahn_context_size.pdf
+paper/figures/allen_cahn_spectral_robustness_summary.pdf,file,22282,included as figures/manuscript/allen_cahn_spectral_robustness_summary.pdf
+paper/figures/burgers_base_state_context_spectrum_with_cumulative_relative_error.png,file,794239,included as figures/manuscript/burgers_base_state_context_spectrum_with_cumulative_relative_error.png
+paper/figures/burgers_base_state_predictions.png,file,247213,included as figures/manuscript/burgers_base_state_predictions.png
+paper/figures/burgers_context_size.pdf,file,19696,included as figures/manuscript/burgers_context_size.pdf
+paper/figures/burgers_spectral_robustness_summary.pdf,file,22776,included as figures/manuscript/burgers_spectral_robustness_summary.pdf
+paper/figures/burgers_wrong_query_spectrum_with_cumulative_relative_error.png,file,319756,included as figures/manuscript/burgers_wrong_query_spectrum_with_cumulative_relative_error.png
+paper/figures/burgers_wrong_relative_prediction_error_over_hidden_viscosity.png,file,144486,included as figures/manuscript/burgers_wrong_relative_prediction_error_over_hidden_viscosity.png
+paper/figures/fig04_square_feature_map.pdf,file,37907,included as figures/manuscript/fig04_square_feature_map.pdf
+paper/figures/fig07_square_feature_map.pdf,file,34895,included as figures/manuscript/fig07_square_feature_map.pdf
+paper/figures/fig10_square_feature_map.pdf,file,37338,included as figures/manuscript/fig10_square_feature_map.pdf
+paper/figures/fig13_square_feature_map.pdf,file,36973,included as figures/manuscript/fig13_square_feature_map.pdf
+paper/figures/fig19_square_feature_map.pdf,file,49349,included as figures/manuscript/fig19_square_feature_map.pdf
+results/revision/demo_parameter_noise/advection_demo_parameter_noise.csv,file,23321,included
+results/revision/demo_parameter_noise/analysis.md,file,885,excluded: private correspondence/manuscript build or redundant figure/archive/log
+results/revision/prompt_variability/advection_prompt_stats.csv,file,5855,included
+results/revision/prompt_variability/advection_prompt_stats_full_range.csv,file,11339,included
+results/revision/prompt_variability/allen_cahn_prompt_stats.csv,file,5211,included
+results/revision/prompt_variability/allen_cahn_prompt_stats_full_range.csv,file,9193,included
+results/revision/prompt_variability/burgers_prompt_stats.csv,file,5011,included
+results/revision/prompt_variability/burgers_prompt_stats_full_range.csv,file,8319,included
+scripts/plot/plot_current_burgers.py,file,5286,included
+scripts/plot/render_regime_comparisons.py,file,6329,included
+scripts/plot/replot_square_feature_maps.py,file,7014,included
+scripts/revision/extend_burgers_feature_map.py,file,3758,included
+scripts/revision/plot_context_size.py,file,2446,included
+scripts/revision/plot_demo_parameter_noise.py,file,3227,included
+scripts/revision/plot_prompt_variability.py,file,5094,included
+scripts/revision/plot_solver_convergence.py,file,2155,included
+scripts/revision/plot_training_proximity.py,file,2676,included
+scripts/revision/run_context_size.py,file,3151,included
+scripts/revision/run_demo_parameter_noise.py,file,4584,included
+scripts/revision/run_prompt_variability.py,file,2812,included
+scripts/revision/run_solver_convergence.py,file,4886,included
+scripts/revision/run_training_proximity.py,file,6109,included
+scripts/revision/update_response_locations.py,file,1939,excluded: private correspondence/manuscript build or redundant figure/archive/log
+slurm/context_size.sbatch,file,681,excluded: private correspondence/manuscript build or redundant figure/archive/log
+slurm/demo_parameter_noise.sbatch,file,635,excluded: private correspondence/manuscript build or redundant figure/archive/log
+slurm/prompt_variability.sbatch,file,677,excluded: private correspondence/manuscript build or redundant figure/archive/log
+slurm/prompt_variability_full_range.sbatch,file,1363,excluded: private correspondence/manuscript build or redundant figure/archive/log
+slurm/solver_convergence.sbatch,file,536,excluded: private correspondence/manuscript build or redundant figure/archive/log
+slurm/training_proximity.sbatch,file,674,excluded: private correspondence/manuscript build or redundant figure/archive/log
+src/__init__.py,file,55,included
+src/common/__init__.py,file,39,included
+src/common/models_utils.py,file,8101,included
+src/common/project.py,file,1294,included
+src/models/__init__.py,file,54,included
+src/models/revision_runtime.py,file,8855,included
+src/plotting/__init__.py,file,63,included
+src/plotting/regimes.py,file,6827,included
+src/plotting/style.py,file,4257,included

@@ -1,0 +1,98 @@
+{
+  "framework": "JAX/Flax",
+  "training_seed": 0,
+  "n_grid": 100,
+  "n_modes": 16,
+  "fourier_decay": 1.0,
+  "initial_amp": 0.7,
+  "bias_scale": 0.0,
+  "num_pairs": 6,
+  "demo_num": 5,
+  "num_train_operators": 2000,
+  "pairs_per_operator": 20,
+  "batch_size": 4,
+  "num_steps": 200000,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.0001,
+  "warmup_steps": 2000,
+  "clip_norm": 1.0,
+  "architecture": {
+    "n_layers": 6,
+    "n_heads": 8,
+    "head_dim": 32,
+    "model_dim": 256,
+    "widening_factor": 4
+  },
+  "pdes": {
+    "advection": {
+      "range": [
+        0.5,
+        1.0
+      ],
+      "T": 0.5,
+      "solver": "analytic Fourier training shift; periodic linear grid interpolation in fixed-query evaluation"
+    },
+    "burgers": {
+      "range": [
+        0.005,
+        0.05
+      ],
+      "T": 0.25,
+      "n_solver_steps": 800,
+      "solver": "pseudo-spectral, 2/3 dealiasing, RK4"
+    },
+    "allen_cahn": {
+      "range": [
+        0.02,
+        0.08
+      ],
+      "T": 0.25,
+      "n_solver_steps": 800,
+      "solver": "pseudo-spectral RK4; clip completed steps to [-3,3]"
+    }
+  },
+  "controls": {
+    "advection_frequency8": {
+      "n_modes": 8
+    },
+    "burgers_corrupted": {
+      "seed": 0,
+      "conditioning": "independent demo and query viscosities; check source for exact PRNG operations"
+    }
+  },
+  "warning": "Recovered documentation; original scripts remain the authoritative configuration. Control seed is verified separately below.",
+  "source_settings": {
+    "experiments/advection/training/train_advection.py": {
+      "seed": 0,
+      "n_modes": 16,
+      "num_steps": 200000,
+      "MODEL_SIZE": "paper_like",
+      "RUN_MODE": "eval"
+    },
+    "experiments/burgers/training/train_burgers.py": {
+      "seed": 0,
+      "n_modes": 16,
+      "num_steps": 200000,
+      "MODEL_SIZE": "paper_like"
+    },
+    "experiments/allen_cahn/training/train_allen_cahn.py": {
+      "seed": 0,
+      "n_modes": 16,
+      "num_steps": 200000,
+      "MODEL_SIZE": "paper_like"
+    },
+    "experiments/burgers/corrupted_prompt/train_corrupted_prompt.py": {
+      "seed": 0,
+      "n_modes": 16,
+      "num_steps": 200000,
+      "MODEL_SIZE": "paper_like"
+    },
+    "experiments/advection/bandwidth_ablation/train_frequency8.py": {
+      "seed": 0,
+      "n_modes": 8,
+      "num_steps": 200000,
+      "MODEL_SIZE": "paper_like",
+      "RUN_MODE": "train"
+    }
+  }
+}

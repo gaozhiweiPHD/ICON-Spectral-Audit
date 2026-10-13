@@ -1,0 +1,35 @@
+{
+  "advection": {
+    "seed": 20261013,
+    "parameter": 0.75,
+    "pairs": 6,
+    "n_grid": 100,
+    "source": "preserved evaluation generator",
+    "purpose": "new release sample; not historical training data",
+    "jax_version": "0.6.2",
+    "backend": "gpu",
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "burgers": {
+    "seed": 20261014,
+    "parameter": 0.025,
+    "pairs": 6,
+    "n_grid": 100,
+    "source": "preserved evaluation generator",
+    "purpose": "new release sample; not historical training data",
+    "jax_version": "0.6.2",
+    "backend": "gpu",
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "allen_cahn": {
+    "seed": 20261015,
+    "parameter": 0.05,
+    "pairs": 6,
+    "n_grid": 100,
+    "source": "preserved evaluation generator",
+    "purpose": "new release sample; not historical training data",
+    "jax_version": "0.6.2",
+    "backend": "gpu",
+    "device": "NVIDIA GeForce RTX 3090"
+  }
+}

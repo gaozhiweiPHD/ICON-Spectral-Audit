@@ -1,0 +1,13 @@
+# Numerical profile: recovered Python 3.10.20 environment; CPU JAX.
+jax==0.6.2
+jaxlib==0.6.2
+flax==0.10.7
+optax==0.2.8
+einshape==1.0
+numpy==2.2.6
+scipy==1.15.3
+msgpack==1.1.2
+orbax-checkpoint==0.11.39
+# Plotting in the same environment requires Pillow (missing locally).
+matplotlib==3.10.9
+Pillow==12.0.0

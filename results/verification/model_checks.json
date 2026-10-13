@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "rtol": 0.005,
+  "atol": 5e-05,
+  "scope": "one archived row per PDE; full 16-mode JVP diagnostics; no training or full-sweep certification",
+  "cases": [
+    {
+      "pde": "advection",
+      "parameter": 0.5,
+      "prompt_seed": 20260929,
+      "query_seed": 20360929,
+      "seconds": 51.510331360041164,
+      "metrics": {
+        "prediction_error": {
+          "reference": 0.018178630620241165,
+          "measured": 0.018178630620241165,
+          "passed": true
+        },
+        "spectral_error": {
+          "reference": 0.023668920621275902,
+          "measured": 0.023668920621275902,
+          "passed": true
+        },
+        "matrix_error": {
+          "reference": 0.04711503066226963,
+          "measured": 0.04711503066226963,
+          "passed": true
+        },
+        "block_error": {
+          "reference": 0.022521299792980738,
+          "measured": 0.022521299792980738,
+          "passed": true
+        }
+      },
+      "backend": "gpu"
+    },
+    {
+      "pde": "burgers",
+      "parameter": 0.005,
+      "prompt_seed": 20260929,
+      "query_seed": 20360929,
+      "seconds": 13.443450375983957,
+      "metrics": {
+        "prediction_error": {
+          "reference": 0.04454069584608078,
+          "measured": 0.04454069584608078,
+          "passed": true
+        },
+        "spectral_error": {
+          "reference": 0.10962893068790436,
+          "measured": 0.10962892323732376,
+          "passed": true
+        },
+        "matrix_error": {
+          "reference": 0.1704990267753601,
+          "measured": 0.17046673595905304,
+          "passed": true
+        },
+        "block_error": {
+          "reference": null,
+          "measured": null,
+          "passed": true
+        }
+      },
+      "backend": "gpu"
+    },
+    {
+      "pde": "allen_cahn",
+      "parameter": 0.02,
+      "prompt_seed": 20260929,
+      "query_seed": 20360929,
+      "seconds": 12.350767668045592,
+      "metrics": {
+        "prediction_error": {
+          "reference": 0.004792805761098862,
+          "measured": 0.004792805761098862,
+          "passed": true
+        },
+        "spectral_error": {
+          "reference": 0.00805541593581438,
+          "measured": 0.00805541593581438,
+          "passed": true
+        },
+        "matrix_error": {
+          "reference": 0.017484743148088455,
+          "measured": 0.017484743148088455,
+          "passed": true
+        },
+        "block_error": {
+          "reference": null,
+          "measured": null,
+          "passed": true
+        }
+      },
+      "backend": "gpu"
+    }
+  ]
+}

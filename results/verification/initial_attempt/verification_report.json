@@ -1,0 +1,108 @@
+{
+  "checks": [
+    {
+      "name": "numerical_environment",
+      "returncode": 0,
+      "seconds": 8.418411118909717,
+      "arguments": [
+        "scripts/environment_report.py",
+        "RELEASE/outputs/verification/numerical_environment.json"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "plot_environment",
+      "returncode": 0,
+      "seconds": 14.552968425676227,
+      "arguments": [
+        "scripts/environment_report.py",
+        "RELEASE/outputs/verification/plot_environment.json"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "pip_dependency_check",
+      "returncode": 1,
+      "seconds": 4.105023795738816,
+      "arguments": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "stdout": "datasets 5.0.1 requires filelock, which is not installed.\nhuggingface-hub 1.27.0 requires filelock, which is not installed.\nlatex2sympy2-extended 1.11.0 requires sympy, which is not installed.\nmatplotlib 3.10.9 requires contourpy, which is not installed.\nmatplotlib 3.10.9 requires fonttools, which is not installed.\nmatplotlib 3.10.9 requires pillow, which is not installed.\nmatplotlib 3.10.9 requires pyparsing, which is not installed.\nmistral-common 1.11.7 requires pillow, which is not installed.\ntorch 2.13.0 requires filelock, which is not installed.\ntorch 2.13.0 requires sympy, which is not installed.\ntorchstudio 0.0.2 requires pillow, which is not installed.\ntorchvision 0.28.0 requires pillow, which is not installed.\nvllm 0.28.0 requires filelock, which is not installed.\nvllm 0.28.0 requires pillow, which is not installed.\n",
+      "stderr": ""
+    },
+    {
+      "name": "solver_convergence",
+      "returncode": 0,
+      "seconds": 8.384811544790864,
+      "arguments": [
+        "scripts/revision/run_solver_convergence.py",
+        "--samples",
+        "4",
+        "--seed",
+        "20261004",
+        "--output",
+        "RELEASE/outputs/verification/solver_convergence.csv"
+      ],
+      "stdout": "burgers time-refined [2.4324157e-07 4.6371042e-07 2.3717735e-07 3.3975692e-07] space+time-refined [2.3947231e-04 1.9159460e-04 2.8679648e-04 7.6966571e-05]\nallen_cahn time-refined [5.6387637e-07 4.5781746e-07 3.7577473e-07 4.5752299e-07] space+time-refined [0.00012113 0.00022555 0.00020845 0.00028004]\nsaved 8 raw rows to RELEASE/outputs/verification/solver_convergence.csv\n",
+      "stderr": ""
+    },
+    {
+      "name": "model_and_spectral_reproduction",
+      "returncode": 1,
+      "seconds": 0.2727526891976595,
+      "arguments": [
+        "scripts/verify_models.py",
+        "--output",
+        "RELEASE/outputs/verification/model_checks.json"
+      ],
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"RELEASE/scripts/verify_models.py\", line 36, in <module>\n    if __name__==\"__main__\": main()\n  File \"RELEASE/scripts/verify_models.py\", line 18, in main\n    with path.open() as f: reference=next(csv.DictReader(f))\n  File \"ENVIRONMENT_PATH\", line 1119, in open\n    return self._accessor.open(self, mode, buffering, encoding, errors,\nFileNotFoundError: [Errno 2] No such file or directory: 'RELEASE/results/revision/prompt_variability/advection_prompt_stats.csv'\n"
+    },
+    {
+      "name": "synthetic_samples",
+      "returncode": 0,
+      "seconds": 18.12140553072095,
+      "arguments": [
+        "scripts/generate_samples.py",
+        "--output-dir",
+        "RELEASE/outputs/verification/samples"
+      ],
+      "stdout": "Loaded checkpoint: RELEASE/experiments/burgers/corrupted_prompt/run/ckpt/params_step_200000.msgpack\nLoaded checkpoint: RELEASE/experiments/burgers/checkpoints/main/params_step_200000.msgpack\n",
+      "stderr": "2026-10-13 18:55:55.024653: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.\n"
+    },
+    {
+      "name": "archived_figure_redraws",
+      "returncode": 1,
+      "seconds": 47.2677939645946,
+      "arguments": [
+        "scripts/reproduce_plots.py",
+        "--output-dir",
+        "RELEASE/outputs/verification/plots"
+      ],
+      "stdout": "scripts/plot/replot_square_feature_maps.py\nscripts/plot/plot_current_burgers.py\nscripts/plot/render_regime_comparisons.py\nscripts/revision/plot_prompt_variability.py\nscripts/revision/plot_context_size.py\nscripts/revision/plot_training_proximity.py\nscripts/revision/plot_prompt_variability.py\nscripts/revision/plot_context_size.py\nscripts/revision/plot_training_proximity.py\nscripts/revision/plot_prompt_variability.py\nscripts/revision/plot_context_size.py\nscripts/revision/plot_training_proximity.py\nscripts/revision/plot_demo_parameter_noise.py\nscripts/revision/plot_solver_convergence.py\nscripts/plot/redraw_detail_panels.py\nFailed commands: 4\n",
+      "stderr": ""
+    },
+    {
+      "name": "figure_asset_export",
+      "returncode": 0,
+      "seconds": 0.09555680118501186,
+      "arguments": [
+        "scripts/export_figures.py",
+        "--output-dir",
+        "RELEASE/outputs/verification/exported"
+      ],
+      "stdout": "Exported 24 preserved assets for 22 figures; no numerical reevaluation.\n",
+      "stderr": ""
+    }
+  ],
+  "failed_checks": [
+    "pip_dependency_check",
+    "model_and_spectral_reproduction",
+    "archived_figure_redraws"
+  ],
+  "scope": "representative reproduction only; no full retraining, full sweep, bandwidth control evaluation or reverse-Jacobian feature-map recertification"
+}

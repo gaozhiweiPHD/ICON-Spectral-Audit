@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "advection": true,
+    "allen_cahn": true,
+    "advection_frequency8": true,
+    "burgers_corrupted": true
+  },
+  "scope": "AST symbol presence; full evaluators not executed"
+}

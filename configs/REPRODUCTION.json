@@ -1,0 +1,42 @@
+{
+  "training": {
+    "tested_full_runs": false,
+    "seed": 0,
+    "updates": 200000,
+    "entry": "scripts/train.py",
+    "original_source_is_authoritative": true
+  },
+  "evaluation": {
+    "entry": "scripts/verify_models.py",
+    "scope": "one stored seed pair per PDE; prediction and 16-pair JVP diagnostics"
+  },
+  "spectral_diagnostics": {
+    "fixed_context": true,
+    "automatic_differentiation": "directional JVP, projected matrix; reverse-Jacobian extension preserved separately",
+    "norm": "relative Frobenius for matrices"
+  },
+  "revision_seeds": {
+    "prompt_variability": 20260929,
+    "context_size": 20261001,
+    "demo_parameter_noise": 20261002,
+    "training_proximity": 20261003,
+    "solver_convergence": 20261004
+  },
+  "plots": {
+    "entry": "scripts/reproduce_plots.py",
+    "uncertainty": "sample SD by default",
+    "exact_missing_array_redraw_figures": [
+      16,
+      17
+    ]
+  },
+  "new_sample_seed_base": 20261013,
+  "original_archived_rows": 1098,
+  "all_original_training_snapshots": 100,
+  "bundled_final_snapshots": 5,
+  "privacy": {
+    "github_target_name": "ICON-Spectral-Audit",
+    "initial_visibility": "PRIVATE",
+    "public_visibility_requires_explicit_approval": true
+  }
+}

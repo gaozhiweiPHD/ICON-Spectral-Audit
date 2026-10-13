@@ -1,0 +1,189 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/plot/replot_square_feature_maps.py",
+        "--output-dir",
+        "OUTPUT/feature_maps"
+      ],
+      "returncode": 0,
+      "stdout": "saved square feature-map redraws to ./outputs/verification/plots/feature_maps\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/plot/plot_current_burgers.py",
+        "--output-dir",
+        "OUTPUT/burgers"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/plot/render_regime_comparisons.py",
+        "--output-dir",
+        "OUTPUT/regime"
+      ],
+      "returncode": 0,
+      "stdout": "advection_relative_prediction_error_over_hidden_speed_regime_style\nadvection_query_spectrum_training_range_regime_style\nallen_cahn_relative_prediction_error_over_hidden_epsilon_regime_style\nallen_cahn_query_spectrum_over_eps_with_cumulative_relative_error_regime_style\nburgers_relative_prediction_error_over_hidden_viscosity_regime_style\nburgers_query_spectrum_over_c_with_cumulative_relative_error_regime_style\nburgers_wrong_relative_prediction_error_over_hidden_viscosity_regime_style\nburgers_wrong_query_spectrum_with_cumulative_relative_error_regime_style\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_prompt_variability.py",
+        "--pde",
+        "advection",
+        "--output-dir",
+        "OUTPUT/summaries"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"./scripts/revision/plot_prompt_variability.py\", line 134, in <module>\n    main()\n    ~~~~^^\n  File \"./scripts/revision/plot_prompt_variability.py\", line 85, in main\n    grouped = load_grouped(input_path)\n  File \"./scripts/revision/plot_prompt_variability.py\", line 45, in load_grouped\n    with path.open(newline=\"\") as handle:\n         ~~~~~~~~~^^^^^^^^^^^^\n  File \"ENVIRONMENT_PATH\", line 537, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: './results/revision/prompt_variability/advection_prompt_stats.csv'\n"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_context_size.py",
+        "--pde",
+        "advection",
+        "--output",
+        "OUTPUT/advection_context_size.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_training_proximity.py",
+        "--pde",
+        "advection",
+        "--output",
+        "OUTPUT/advection_training_proximity.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_prompt_variability.py",
+        "--pde",
+        "burgers",
+        "--output-dir",
+        "OUTPUT/summaries"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"./scripts/revision/plot_prompt_variability.py\", line 134, in <module>\n    main()\n    ~~~~^^\n  File \"./scripts/revision/plot_prompt_variability.py\", line 85, in main\n    grouped = load_grouped(input_path)\n  File \"./scripts/revision/plot_prompt_variability.py\", line 45, in load_grouped\n    with path.open(newline=\"\") as handle:\n         ~~~~~~~~~^^^^^^^^^^^^\n  File \"ENVIRONMENT_PATH\", line 537, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: './results/revision/prompt_variability/burgers_prompt_stats.csv'\n"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_context_size.py",
+        "--pde",
+        "burgers",
+        "--output",
+        "OUTPUT/burgers_context_size.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_training_proximity.py",
+        "--pde",
+        "burgers",
+        "--output",
+        "OUTPUT/burgers_training_proximity.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_prompt_variability.py",
+        "--pde",
+        "allen_cahn",
+        "--output-dir",
+        "OUTPUT/summaries"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"./scripts/revision/plot_prompt_variability.py\", line 134, in <module>\n    main()\n    ~~~~^^\n  File \"./scripts/revision/plot_prompt_variability.py\", line 85, in main\n    grouped = load_grouped(input_path)\n  File \"./scripts/revision/plot_prompt_variability.py\", line 45, in load_grouped\n    with path.open(newline=\"\") as handle:\n         ~~~~~~~~~^^^^^^^^^^^^\n  File \"ENVIRONMENT_PATH\", line 537, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: './results/revision/prompt_variability/allen_cahn_prompt_stats.csv'\n"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_context_size.py",
+        "--pde",
+        "allen_cahn",
+        "--output",
+        "OUTPUT/allen_cahn_context_size.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_training_proximity.py",
+        "--pde",
+        "allen_cahn",
+        "--output",
+        "OUTPUT/allen_cahn_training_proximity.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_demo_parameter_noise.py",
+        "--output",
+        "OUTPUT/advection_demo_parameter_noise.png"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"./scripts/revision/plot_demo_parameter_noise.py\", line 68, in <module>\n    main()\n    ~~~~^^\n  File \"./scripts/revision/plot_demo_parameter_noise.py\", line 32, in main\n    with args.input.open(newline=\"\") as handle:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"ENVIRONMENT_PATH\", line 537, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: './results/revision/demo_parameter_noise/advection_demo_parameter_noise.csv'\n"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/revision/plot_solver_convergence.py",
+        "--output",
+        "OUTPUT/solver_convergence.png"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/plot/redraw_detail_panels.py",
+        "--output-dir",
+        "OUTPUT/details"
+      ],
+      "returncode": 0,
+      "stdout": "advection_phase_block_error_over_c\nallen_cahn_base_state_context_spectrum_with_cumulative_relative_error\n",
+      "stderr": ""
+    }
+  ],
+  "failed": 4,
+  "scope": "redraws from archived arrays; exact raster/layout equality is not asserted"
+}

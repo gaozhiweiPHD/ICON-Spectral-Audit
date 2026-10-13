@@ -1,0 +1,69 @@
+{
+  "comparisons": [
+    {
+      "PDE": "burgers",
+      "sample": "0",
+      "archived_time": 5.094105404168658e-07,
+      "measured_time": 2.432415726616455e-07,
+      "archived_space_time": 2.6038946998596657e-06,
+      "measured_space_time": 0.000239472312387079
+    },
+    {
+      "PDE": "burgers",
+      "sample": "1",
+      "archived_time": 5.785449275208521e-07,
+      "measured_time": 4.6371042117243633e-07,
+      "archived_space_time": 4.090368747711182e-06,
+      "measured_space_time": 0.00019159460498485714
+    },
+    {
+      "PDE": "burgers",
+      "sample": "2",
+      "archived_time": 4.2245548570463143e-07,
+      "measured_time": 2.371773462073179e-07,
+      "archived_space_time": 7.150116516640992e-07,
+      "measured_space_time": 0.000286796479485929
+    },
+    {
+      "PDE": "burgers",
+      "sample": "3",
+      "archived_time": 3.945977198327455e-07,
+      "measured_time": 3.397569230401132e-07,
+      "archived_space_time": 7.538782824667578e-07,
+      "measured_space_time": 7.696657121414319e-05
+    },
+    {
+      "PDE": "allen_cahn",
+      "sample": "0",
+      "archived_time": 6.445698659263144e-07,
+      "measured_time": 5.638763695969828e-07,
+      "archived_space_time": 1.5709692888776772e-06,
+      "measured_space_time": 0.00012112726835766807
+    },
+    {
+      "PDE": "allen_cahn",
+      "sample": "1",
+      "archived_time": 6.004391366332129e-07,
+      "measured_time": 4.5781746393913636e-07,
+      "archived_space_time": 2.025377852987731e-06,
+      "measured_space_time": 0.00022554952010978013
+    },
+    {
+      "PDE": "allen_cahn",
+      "sample": "2",
+      "archived_time": 4.898692509414104e-07,
+      "measured_time": 3.757747322197247e-07,
+      "archived_space_time": 1.0271310202369932e-06,
+      "measured_space_time": 0.00020844725077040493
+    },
+    {
+      "PDE": "allen_cahn",
+      "sample": "3",
+      "archived_time": 4.514317879511509e-07,
+      "measured_time": 4.5752298660772794e-07,
+      "archived_space_time": 1.94586141333275e-06,
+      "measured_space_time": 0.0002800423535518348
+    }
+  ],
+  "warning": "float32 backend differences; this check is terminal-state only, not tangent-map convergence"
+}
