@@ -16,16 +16,17 @@ Python syntax, safe NPZ loads, absolute path metadata checks, symlinks and file
 sizes. It reports paths/categories only, never a secret value.
 Binary weight/PDF/image content is not exhaustively analyzed. Passing a regex
 scan is not a proof of absence of confidential information or a full dependency
-vulnerability audit. User review is required before public visibility.
+vulnerability audit. The user reviewed the candidate and approved public visibility on 13 October 2026.
 
 All source and candidate files are below GitHub's per-file 100 MiB limit.
 The complete 100-snapshot training history is about 1.9 GB and is deliberately
 not in Git; a later full-history release should use LFS or an archival service.
 This task creates no public archive or invented persistent DOI.
 
-The local project did not contain a LICENSE. MIT for original code and
-CC BY 4.0 for original synthetic data, figures and trained weights have been
-proposed to the authors; no original-work license is granted until approved.
+The original local project did not contain a LICENSE. The user has now
+confirmed redistribution rights and approved MIT for original code and
+CC BY 4.0 for original synthetic data, figures and trained weights.
+The complete texts are in LICENSE and LICENSE-DATA; scope is in docs/LICENSING.md.
 The public upstream ICON project is MIT licensed. Its Copyright (c) 2023 Liu Yang
 notice and complete license are retained; prompt-assembly/mask utilities share
 upstream source. Two functions match exactly after AST normalization;
@@ -33,13 +34,13 @@ other functions have local modifications. Architecture and prompt-code
 attribution is retained conservatively across original experiment scripts.
 Exact historical line-by-line origin has not been certified.
 
-Author confirmation of rights and the final license choice are required before
-public release. Dependency distributions are not vendored; their licenses
+The user explicitly confirmed rights, selected the licenses and approved
+public release on 13 October 2026. Dependency distributions are not vendored; their licenses
 remain separate. All original experimental datasets are synthetic, so no
 unpublished third-party experimental data is included.
 
-Private upload has been authorized by the user. Public visibility is a separate
-approval and will not be changed by the preparation/push script.
+Private upload has been authorized by the user. Public visibility was separately approved by the user and is changed only
+through the approved publication step, not the private-repository creation helper.
 
 ## Environment limitations discovered in execution
 
@@ -58,4 +59,4 @@ claimed. Original code/arrays are preserved, and CPU/GPU runs are distinguished.
 
 ## Actual upload status
 
-The cleaned candidate has been pushed to https://github.com/gaozhiweiPHD/ICON-Spectral-Audit with PRIVATE visibility verified. The initial authentication blocker is resolved. No existing remote repository was overwritten and nothing has been made public. Original-work licensing and public release remain pending author review.
+The cleaned candidate has been pushed to https://github.com/gaozhiweiPHD/ICON-Spectral-Audit with PRIVATE visibility verified. The initial authentication blocker is resolved. No pre-existing remote repository was overwritten. The user subsequently approved public release and the original-work licenses on 13 October 2026. Anonymous public access is recorded separately.

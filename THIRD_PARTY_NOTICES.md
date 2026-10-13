@@ -10,7 +10,8 @@ The upstream MIT license and Copyright (c) 2023 Liu Yang are retained in
 and prompt-construction portions of the preserved experiment code.
 Numerical PDE generators and manuscript diagnostics are supplied from the
 authors' local ICON project. Exact origins of every historical line have not
-been certified; author review remains required before public release.
+been certified. The user confirmed redistribution rights and approved release;
+upstream attribution and its full license are retained.
 
 JAX, Flax, Optax, einshape, NumPy and Matplotlib are dependencies, not vendored
 distributions. Their respective licenses remain applicable. No pretrained

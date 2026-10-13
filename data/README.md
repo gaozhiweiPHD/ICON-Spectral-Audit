@@ -31,5 +31,8 @@ from corrupted training is excluded because it is not used by the current
 manuscript. All bundled arrays load with `allow_pickle=False`.
 Notebook outputs and machine metadata were removed.
 
-Redistribution licenses for original data, figures and weights await author
-approval. No third-party data or third-party pretrained weights are uploaded.
+Original synthetic data, figures and trained weights are licensed under
+CC BY 4.0 (LICENSE-DATA); the original generation software is MIT licensed.
+The user confirmed redistribution rights and approved these licenses.
+See docs/LICENSING.md for scope. No third-party data or third-party pretrained
+weights are uploaded.

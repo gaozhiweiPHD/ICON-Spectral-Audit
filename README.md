@@ -4,8 +4,10 @@ Reproducibility materials for the manuscript submitted to **npj Artificial
 Intelligence**. This is an independently organized copy of the authors' ICON
 working project. Original experiments and manuscript files were left intact.
 
-**Publication status:** [GitHub repository](https://github.com/gaozhiweiPHD/ICON-Spectral-Audit) is private and has been pushed successfully. Public release approval and
-original-work licensing confirmation are still required. See [STATUS.md](STATUS.md) for actual test results,
+**Publication status:** public release and licenses were approved on 13 October 2026.
+[GitHub repository](https://github.com/gaozhiweiPHD/ICON-Spectral-Audit).
+Original code: MIT; original synthetic data, figures and weights: CC BY 4.0.
+See [docs/LICENSING.md](docs/LICENSING.md) for scope and third-party notices. See [STATUS.md](STATUS.md) for actual test results,
 licensing decisions and missing materials. No full retraining or full parameter
 sweep is claimed to have been reproduced.
 
@@ -101,6 +103,5 @@ checkpoints do not contain optimizer state for exact training resumption.
 
 Read [data/README.md](data/README.md), [docs/SECURITY_AND_LICENSING.md](docs/SECURITY_AND_LICENSING.md),
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [LICENSE](LICENSE).
-No external experimental dataset is bundled. Public visibility will only be
-enabled after author approval; final journal availability statements depend on
-verification of the resulting public URL.
+No external experimental dataset is bundled. Public release has been explicitly approved. Final journal availability statements
+and anonymous access verification are recorded in docs/JOURNAL_AVAILABILITY.md.

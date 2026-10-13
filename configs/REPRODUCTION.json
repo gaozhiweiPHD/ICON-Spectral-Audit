@@ -37,6 +37,8 @@
   "privacy": {
     "github_target_name": "ICON-Spectral-Audit",
     "initial_visibility": "PRIVATE",
-    "public_visibility_requires_explicit_approval": true
+    "public_visibility_requires_explicit_approval": true,
+    "public_release_approved": true,
+    "approval_date": "2026-10-13"
   }
 }

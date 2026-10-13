@@ -469,5 +469,5 @@
   "training_pools": "synthetically generated in memory, not stored; original JAX PRNG splitting authoritative",
   "new_samples": "data/samples/PROVENANCE.json",
   "external_experimental_data": false,
-  "licenses": "author decision pending"
+  "licenses": "Original software MIT; original data/figures/weights CC-BY-4.0; upstream notices retained"
 }

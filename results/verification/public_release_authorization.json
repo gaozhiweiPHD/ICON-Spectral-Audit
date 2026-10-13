@@ -1,0 +1,11 @@
+{
+  "approval_date": "2026-10-13",
+  "approval": "user explicitly approved the combined public-release, rights-confirmation and license proposal",
+  "original_code_license": "MIT",
+  "original_data_figures_weights_license": "CC-BY-4.0",
+  "third_party_license_retained": "third_party/ICON-MIT-LICENSE",
+  "cc_license_canonical_url": "https://creativecommons.org/licenses/by/4.0/",
+  "cc_license_download_source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+  "cc_license_sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+  "visibility_change_authorized": true
+}
