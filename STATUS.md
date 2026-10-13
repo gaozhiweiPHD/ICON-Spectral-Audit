@@ -19,6 +19,8 @@ Public visibility has not been authorized.
 - Three scientific-array/figure/sample integrity tests passed.
 - A real local Git clone passed all 33 dataset/checkpoint SHA-256 checks and
   the three integrity tests; CSV bytes survive Git transport unchanged.
+- A fresh authenticated GitHub clone passed all 33 SHA-256 checks and all three
+  integrity tests; see results/verification/github_clone_checks.json.
 - Numerical and separate plotting dependency closures passed.
 - Local document-link and evaluator-symbol checks passed.
 - Candidate security scan had no credential, machine-path, unsafe-NPZ,

@@ -48,3 +48,7 @@ A fresh installation and the manual GitHub Actions recipe were not executed.
 
 Full JSON reports and raw rerun solver rows are under results/verification/.
 Security findings, scope and size inventory are in docs/SECURITY_AUDIT.json.
+
+## GitHub verification
+
+The actual private repository was cloned from GitHub after push. All 33 packaged dataset/checkpoint SHA-256 checks and the three integrity tests passed. The tested remote commit and scope are recorded in results/verification/github_clone_checks.json. Subsequent changes are verification-report and status/inventory documentation only. Anonymous public access has not been enabled or claimed.

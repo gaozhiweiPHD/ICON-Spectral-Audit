@@ -1,0 +1,12 @@
+{
+  "source": "authenticated fresh GitHub clone",
+  "repository_url": "https://github.com/gaozhiweiPHD/ICON-Spectral-Audit",
+  "tested_commit": "6f94fd48eb5e3a9664186b02c4b68bd699ed54f1",
+  "dataset_sha256_files": 33,
+  "checksum_exit_code": 0,
+  "integrity_test_exit_code": 0,
+  "integrity_test_output": "test_current_manuscript_assets (test_release_integrity.ReleaseTests.test_current_manuscript_assets) ... ok\ntest_projected_jacobian_error_arrays (test_release_integrity.ReleaseTests.test_projected_jacobian_error_arrays) ... ok\ntest_synthetic_example_shapes (test_release_integrity.ReleaseTests.test_synthetic_example_shapes) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.049s\n\nOK\n",
+  "scope": "GitHub transport, all packaged dataset/checkpoint hashes and three figure/matrix/sample tests; no clean environment installation",
+  "public_access_verified": false,
+  "visibility": "PRIVATE"
+}
